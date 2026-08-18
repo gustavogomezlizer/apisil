@@ -1,0 +1,935 @@
+[03-Sep-2024 13:28:20 America/Chicago] PHP Warning:  require_once(/home2/lizer/administracion.lizer.com.mx/vendor/composer/autoload_real.php): Failed to open stream: No such file or directory in /home2/lizer/administracion.lizer.com.mx/vendor/autoload.php on line 23
+[03-Sep-2024 13:28:20 America/Chicago] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/lizer/administracion.lizer.com.mx/vendor/composer/autoload_real.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/lizer/administracion.lizer.com.mx/vendor/autoload.php:23
+Stack trace:
+#0 /home2/lizer/administracion.lizer.com.mx/public/index.php(34): require()
+#1 {main}
+  thrown in /home2/lizer/administracion.lizer.com.mx/vendor/autoload.php on line 23
+[03-Sep-2024 13:28:22 America/Chicago] PHP Warning:  require_once(/home2/lizer/administracion.lizer.com.mx/vendor/composer/autoload_real.php): Failed to open stream: No such file or directory in /home2/lizer/administracion.lizer.com.mx/vendor/autoload.php on line 23
+[03-Sep-2024 13:28:22 America/Chicago] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/lizer/administracion.lizer.com.mx/vendor/composer/autoload_real.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/lizer/administracion.lizer.com.mx/vendor/autoload.php:23
+Stack trace:
+#0 /home2/lizer/administracion.lizer.com.mx/public/index.php(34): require()
+#1 {main}
+  thrown in /home2/lizer/administracion.lizer.com.mx/vendor/autoload.php on line 23
+[03-Sep-2024 13:28:23 America/Chicago] PHP Warning:  require_once(/home2/lizer/administracion.lizer.com.mx/vendor/composer/autoload_real.php): Failed to open stream: No such file or directory in /home2/lizer/administracion.lizer.com.mx/vendor/autoload.php on line 23
+[03-Sep-2024 13:28:23 America/Chicago] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/lizer/administracion.lizer.com.mx/vendor/composer/autoload_real.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/lizer/administracion.lizer.com.mx/vendor/autoload.php:23
+Stack trace:
+#0 /home2/lizer/administracion.lizer.com.mx/public/index.php(34): require()
+#1 {main}
+  thrown in /home2/lizer/administracion.lizer.com.mx/vendor/autoload.php on line 23
+[03-Sep-2024 13:28:23 America/Chicago] PHP Warning:  require_once(/home2/lizer/administracion.lizer.com.mx/vendor/composer/autoload_real.php): Failed to open stream: No such file or directory in /home2/lizer/administracion.lizer.com.mx/vendor/autoload.php on line 23
+[03-Sep-2024 13:28:23 America/Chicago] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/lizer/administracion.lizer.com.mx/vendor/composer/autoload_real.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/lizer/administracion.lizer.com.mx/vendor/autoload.php:23
+Stack trace:
+#0 /home2/lizer/administracion.lizer.com.mx/public/index.php(34): require()
+#1 {main}
+  thrown in /home2/lizer/administracion.lizer.com.mx/vendor/autoload.php on line 23
+[03-Sep-2024 13:28:24 America/Chicago] PHP Warning:  require_once(/home2/lizer/administracion.lizer.com.mx/vendor/composer/autoload_real.php): Failed to open stream: No such file or directory in /home2/lizer/administracion.lizer.com.mx/vendor/autoload.php on line 23
+[03-Sep-2024 13:28:24 America/Chicago] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/lizer/administracion.lizer.com.mx/vendor/composer/autoload_real.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/lizer/administracion.lizer.com.mx/vendor/autoload.php:23
+Stack trace:
+#0 /home2/lizer/administracion.lizer.com.mx/public/index.php(34): require()
+#1 {main}
+  thrown in /home2/lizer/administracion.lizer.com.mx/vendor/autoload.php on line 23
+[03-Sep-2024 13:28:24 America/Chicago] PHP Warning:  require_once(/home2/lizer/administracion.lizer.com.mx/vendor/composer/autoload_real.php): Failed to open stream: No such file or directory in /home2/lizer/administracion.lizer.com.mx/vendor/autoload.php on line 23
+[03-Sep-2024 13:28:24 America/Chicago] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/lizer/administracion.lizer.com.mx/vendor/composer/autoload_real.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/lizer/administracion.lizer.com.mx/vendor/autoload.php:23
+Stack trace:
+#0 /home2/lizer/administracion.lizer.com.mx/public/index.php(34): require()
+#1 {main}
+  thrown in /home2/lizer/administracion.lizer.com.mx/vendor/autoload.php on line 23
+[03-Sep-2024 13:28:24 America/Chicago] PHP Warning:  require_once(/home2/lizer/administracion.lizer.com.mx/vendor/composer/autoload_real.php): Failed to open stream: No such file or directory in /home2/lizer/administracion.lizer.com.mx/vendor/autoload.php on line 23
+[03-Sep-2024 13:28:24 America/Chicago] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/lizer/administracion.lizer.com.mx/vendor/composer/autoload_real.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/lizer/administracion.lizer.com.mx/vendor/autoload.php:23
+Stack trace:
+#0 /home2/lizer/administracion.lizer.com.mx/public/index.php(34): require()
+#1 {main}
+  thrown in /home2/lizer/administracion.lizer.com.mx/vendor/autoload.php on line 23
+[03-Sep-2024 13:28:25 America/Chicago] PHP Warning:  require_once(/home2/lizer/administracion.lizer.com.mx/vendor/composer/autoload_real.php): Failed to open stream: No such file or directory in /home2/lizer/administracion.lizer.com.mx/vendor/autoload.php on line 23
+[03-Sep-2024 13:28:25 America/Chicago] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/lizer/administracion.lizer.com.mx/vendor/composer/autoload_real.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/lizer/administracion.lizer.com.mx/vendor/autoload.php:23
+Stack trace:
+#0 /home2/lizer/administracion.lizer.com.mx/public/index.php(34): require()
+#1 {main}
+  thrown in /home2/lizer/administracion.lizer.com.mx/vendor/autoload.php on line 23
+[03-Sep-2024 13:28:27 America/Chicago] PHP Warning:  require_once(/home2/lizer/administracion.lizer.com.mx/vendor/composer/autoload_real.php): Failed to open stream: No such file or directory in /home2/lizer/administracion.lizer.com.mx/vendor/autoload.php on line 23
+[03-Sep-2024 13:28:27 America/Chicago] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/lizer/administracion.lizer.com.mx/vendor/composer/autoload_real.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/lizer/administracion.lizer.com.mx/vendor/autoload.php:23
+Stack trace:
+#0 /home2/lizer/administracion.lizer.com.mx/public/index.php(34): require()
+#1 {main}
+  thrown in /home2/lizer/administracion.lizer.com.mx/vendor/autoload.php on line 23
+[03-Sep-2024 13:28:28 America/Chicago] PHP Warning:  require_once(/home2/lizer/administracion.lizer.com.mx/vendor/composer/autoload_real.php): Failed to open stream: No such file or directory in /home2/lizer/administracion.lizer.com.mx/vendor/autoload.php on line 23
+[03-Sep-2024 13:28:28 America/Chicago] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/lizer/administracion.lizer.com.mx/vendor/composer/autoload_real.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/lizer/administracion.lizer.com.mx/vendor/autoload.php:23
+Stack trace:
+#0 /home2/lizer/administracion.lizer.com.mx/public/index.php(34): require()
+#1 {main}
+  thrown in /home2/lizer/administracion.lizer.com.mx/vendor/autoload.php on line 23
+[03-Sep-2024 13:28:41 America/Chicago] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/lizer/administracion.lizer.com.mx/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/lizer/administracion.lizer.com.mx/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home2/lizer/administracion.lizer.com.mx/public/index.php on line 34
+[03-Sep-2024 13:28:42 America/Chicago] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/lizer/administracion.lizer.com.mx/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/lizer/administracion.lizer.com.mx/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home2/lizer/administracion.lizer.com.mx/public/index.php on line 34
+[03-Sep-2024 13:28:42 America/Chicago] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/lizer/administracion.lizer.com.mx/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/lizer/administracion.lizer.com.mx/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home2/lizer/administracion.lizer.com.mx/public/index.php on line 34
+[03-Sep-2024 13:28:43 America/Chicago] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/lizer/administracion.lizer.com.mx/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/lizer/administracion.lizer.com.mx/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home2/lizer/administracion.lizer.com.mx/public/index.php on line 34
+[03-Sep-2024 13:28:43 America/Chicago] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/lizer/administracion.lizer.com.mx/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/lizer/administracion.lizer.com.mx/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home2/lizer/administracion.lizer.com.mx/public/index.php on line 34
+[03-Sep-2024 13:28:43 America/Chicago] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/lizer/administracion.lizer.com.mx/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/lizer/administracion.lizer.com.mx/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home2/lizer/administracion.lizer.com.mx/public/index.php on line 34
+[03-Sep-2024 13:28:44 America/Chicago] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/lizer/administracion.lizer.com.mx/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/lizer/administracion.lizer.com.mx/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home2/lizer/administracion.lizer.com.mx/public/index.php on line 34
+[03-Sep-2024 13:28:44 America/Chicago] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/lizer/administracion.lizer.com.mx/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/lizer/administracion.lizer.com.mx/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home2/lizer/administracion.lizer.com.mx/public/index.php on line 34
+[03-Sep-2024 13:28:45 America/Chicago] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/lizer/administracion.lizer.com.mx/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/lizer/administracion.lizer.com.mx/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home2/lizer/administracion.lizer.com.mx/public/index.php on line 34
+[03-Sep-2024 13:28:45 America/Chicago] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/lizer/administracion.lizer.com.mx/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/lizer/administracion.lizer.com.mx/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home2/lizer/administracion.lizer.com.mx/public/index.php on line 34
+[03-Sep-2024 13:28:45 America/Chicago] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/lizer/administracion.lizer.com.mx/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/lizer/administracion.lizer.com.mx/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home2/lizer/administracion.lizer.com.mx/public/index.php on line 34
+[03-Sep-2024 13:28:46 America/Chicago] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/lizer/administracion.lizer.com.mx/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/lizer/administracion.lizer.com.mx/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home2/lizer/administracion.lizer.com.mx/public/index.php on line 34
+[03-Sep-2024 13:28:46 America/Chicago] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/lizer/administracion.lizer.com.mx/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/lizer/administracion.lizer.com.mx/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home2/lizer/administracion.lizer.com.mx/public/index.php on line 34
+[03-Sep-2024 13:28:46 America/Chicago] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/lizer/administracion.lizer.com.mx/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/lizer/administracion.lizer.com.mx/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home2/lizer/administracion.lizer.com.mx/public/index.php on line 34
+[03-Sep-2024 13:28:46 America/Chicago] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/lizer/administracion.lizer.com.mx/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/lizer/administracion.lizer.com.mx/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home2/lizer/administracion.lizer.com.mx/public/index.php on line 34
+[03-Sep-2024 13:28:47 America/Chicago] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/lizer/administracion.lizer.com.mx/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/lizer/administracion.lizer.com.mx/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home2/lizer/administracion.lizer.com.mx/public/index.php on line 34
+[03-Sep-2024 13:28:47 America/Chicago] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/lizer/administracion.lizer.com.mx/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/lizer/administracion.lizer.com.mx/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home2/lizer/administracion.lizer.com.mx/public/index.php on line 34
+[03-Sep-2024 13:28:47 America/Chicago] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/lizer/administracion.lizer.com.mx/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/lizer/administracion.lizer.com.mx/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home2/lizer/administracion.lizer.com.mx/public/index.php on line 34
+[03-Sep-2024 13:28:47 America/Chicago] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/lizer/administracion.lizer.com.mx/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/lizer/administracion.lizer.com.mx/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home2/lizer/administracion.lizer.com.mx/public/index.php on line 34
+[03-Sep-2024 13:28:48 America/Chicago] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/lizer/administracion.lizer.com.mx/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/lizer/administracion.lizer.com.mx/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home2/lizer/administracion.lizer.com.mx/public/index.php on line 34
+[03-Sep-2024 13:28:48 America/Chicago] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/lizer/administracion.lizer.com.mx/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/lizer/administracion.lizer.com.mx/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home2/lizer/administracion.lizer.com.mx/public/index.php on line 34
+[03-Sep-2024 13:28:48 America/Chicago] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/lizer/administracion.lizer.com.mx/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/lizer/administracion.lizer.com.mx/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home2/lizer/administracion.lizer.com.mx/public/index.php on line 34
+[03-Sep-2024 13:49:26 America/Chicago] PHP Warning:  require(/home2/lizer/administracion.lizer.com.mx/vendor/composer/../symfony/deprecation-contracts/function.php): Failed to open stream: No such file or directory in /home2/lizer/administracion.lizer.com.mx/vendor/composer/autoload_real.php on line 41
+[03-Sep-2024 13:49:26 America/Chicago] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/lizer/administracion.lizer.com.mx/vendor/composer/../symfony/deprecation-contracts/function.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/lizer/administracion.lizer.com.mx/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home2/lizer/administracion.lizer.com.mx/vendor/composer/autoload_real.php(45): {closure}('6e3fae29631ef28...', '/home2/lizer/ad...')
+#1 /home2/lizer/administracion.lizer.com.mx/vendor/autoload.php(25): ComposerAutoloaderInit23ae73b46844bfa675a65057ebab9559::getLoader()
+#2 /home2/lizer/administracion.lizer.com.mx/public/index.php(34): require('/home2/lizer/ad...')
+#3 {main}
+  thrown in /home2/lizer/administracion.lizer.com.mx/vendor/composer/autoload_real.php on line 41
+[03-Sep-2024 13:59:31 America/Chicago] PHP Warning:  require(/home2/lizer/administracion.lizer.com.mx/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home2/lizer/administracion.lizer.com.mx/public/index.php on line 34
+[03-Sep-2024 13:59:31 America/Chicago] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/lizer/administracion.lizer.com.mx/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/lizer/administracion.lizer.com.mx/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home2/lizer/administracion.lizer.com.mx/public/index.php on line 34
+[03-Sep-2024 13:59:48 America/Chicago] PHP Warning:  require_once(/home2/lizer/administracion.lizer.com.mx/vendor/composer/autoload_real.php): Failed to open stream: No such file or directory in /home2/lizer/administracion.lizer.com.mx/vendor/autoload.php on line 23
+[03-Sep-2024 13:59:48 America/Chicago] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/lizer/administracion.lizer.com.mx/vendor/composer/autoload_real.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/lizer/administracion.lizer.com.mx/vendor/autoload.php:23
+Stack trace:
+#0 /home2/lizer/administracion.lizer.com.mx/public/index.php(34): require()
+#1 {main}
+  thrown in /home2/lizer/administracion.lizer.com.mx/vendor/autoload.php on line 23
+[03-Sep-2024 13:59:49 America/Chicago] PHP Warning:  require_once(/home2/lizer/administracion.lizer.com.mx/vendor/composer/autoload_real.php): Failed to open stream: No such file or directory in /home2/lizer/administracion.lizer.com.mx/vendor/autoload.php on line 23
+[03-Sep-2024 13:59:49 America/Chicago] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/lizer/administracion.lizer.com.mx/vendor/composer/autoload_real.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/lizer/administracion.lizer.com.mx/vendor/autoload.php:23
+Stack trace:
+#0 /home2/lizer/administracion.lizer.com.mx/public/index.php(34): require()
+#1 {main}
+  thrown in /home2/lizer/administracion.lizer.com.mx/vendor/autoload.php on line 23
+[03-Sep-2024 13:59:50 America/Chicago] PHP Warning:  require_once(/home2/lizer/administracion.lizer.com.mx/vendor/composer/autoload_real.php): Failed to open stream: No such file or directory in /home2/lizer/administracion.lizer.com.mx/vendor/autoload.php on line 23
+[03-Sep-2024 13:59:50 America/Chicago] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/lizer/administracion.lizer.com.mx/vendor/composer/autoload_real.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/lizer/administracion.lizer.com.mx/vendor/autoload.php:23
+Stack trace:
+#0 /home2/lizer/administracion.lizer.com.mx/public/index.php(34): require()
+#1 {main}
+  thrown in /home2/lizer/administracion.lizer.com.mx/vendor/autoload.php on line 23
+[03-Sep-2024 13:59:56 America/Chicago] PHP Warning:  require_once(/home2/lizer/administracion.lizer.com.mx/vendor/composer/autoload_real.php): Failed to open stream: No such file or directory in /home2/lizer/administracion.lizer.com.mx/vendor/autoload.php on line 23
+[03-Sep-2024 13:59:56 America/Chicago] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/lizer/administracion.lizer.com.mx/vendor/composer/autoload_real.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/lizer/administracion.lizer.com.mx/vendor/autoload.php:23
+Stack trace:
+#0 /home2/lizer/administracion.lizer.com.mx/public/index.php(34): require()
+#1 {main}
+  thrown in /home2/lizer/administracion.lizer.com.mx/vendor/autoload.php on line 23
+[03-Sep-2024 14:00:15 America/Chicago] PHP Warning:  require(/home2/lizer/administracion.lizer.com.mx/vendor/composer/../symfony/deprecation-contracts/function.php): Failed to open stream: No such file or directory in /home2/lizer/administracion.lizer.com.mx/vendor/composer/autoload_real.php on line 41
+[03-Sep-2024 14:00:15 America/Chicago] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/lizer/administracion.lizer.com.mx/vendor/composer/../symfony/deprecation-contracts/function.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/lizer/administracion.lizer.com.mx/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home2/lizer/administracion.lizer.com.mx/vendor/composer/autoload_real.php(45): {closure}('6e3fae29631ef28...', '/home2/lizer/ad...')
+#1 /home2/lizer/administracion.lizer.com.mx/vendor/autoload.php(25): ComposerAutoloaderInit23ae73b46844bfa675a65057ebab9559::getLoader()
+#2 /home2/lizer/administracion.lizer.com.mx/public/index.php(34): require('/home2/lizer/ad...')
+#3 {main}
+  thrown in /home2/lizer/administracion.lizer.com.mx/vendor/composer/autoload_real.php on line 41
+[03-Sep-2024 14:00:16 America/Chicago] PHP Warning:  require(/home2/lizer/administracion.lizer.com.mx/vendor/composer/../symfony/deprecation-contracts/function.php): Failed to open stream: No such file or directory in /home2/lizer/administracion.lizer.com.mx/vendor/composer/autoload_real.php on line 41
+[03-Sep-2024 14:00:16 America/Chicago] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/lizer/administracion.lizer.com.mx/vendor/composer/../symfony/deprecation-contracts/function.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/lizer/administracion.lizer.com.mx/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home2/lizer/administracion.lizer.com.mx/vendor/composer/autoload_real.php(45): {closure}('6e3fae29631ef28...', '/home2/lizer/ad...')
+#1 /home2/lizer/administracion.lizer.com.mx/vendor/autoload.php(25): ComposerAutoloaderInit23ae73b46844bfa675a65057ebab9559::getLoader()
+#2 /home2/lizer/administracion.lizer.com.mx/public/index.php(34): require('/home2/lizer/ad...')
+#3 {main}
+  thrown in /home2/lizer/administracion.lizer.com.mx/vendor/composer/autoload_real.php on line 41
+[03-Sep-2024 14:00:16 America/Chicago] PHP Warning:  require(/home2/lizer/administracion.lizer.com.mx/vendor/composer/../symfony/deprecation-contracts/function.php): Failed to open stream: No such file or directory in /home2/lizer/administracion.lizer.com.mx/vendor/composer/autoload_real.php on line 41
+[03-Sep-2024 14:00:16 America/Chicago] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/lizer/administracion.lizer.com.mx/vendor/composer/../symfony/deprecation-contracts/function.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/lizer/administracion.lizer.com.mx/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home2/lizer/administracion.lizer.com.mx/vendor/composer/autoload_real.php(45): {closure}('6e3fae29631ef28...', '/home2/lizer/ad...')
+#1 /home2/lizer/administracion.lizer.com.mx/vendor/autoload.php(25): ComposerAutoloaderInit23ae73b46844bfa675a65057ebab9559::getLoader()
+#2 /home2/lizer/administracion.lizer.com.mx/public/index.php(34): require('/home2/lizer/ad...')
+#3 {main}
+  thrown in /home2/lizer/administracion.lizer.com.mx/vendor/composer/autoload_real.php on line 41
+[03-Sep-2024 14:00:16 America/Chicago] PHP Warning:  require(/home2/lizer/administracion.lizer.com.mx/vendor/composer/../symfony/deprecation-contracts/function.php): Failed to open stream: No such file or directory in /home2/lizer/administracion.lizer.com.mx/vendor/composer/autoload_real.php on line 41
+[03-Sep-2024 14:00:16 America/Chicago] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/lizer/administracion.lizer.com.mx/vendor/composer/../symfony/deprecation-contracts/function.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/lizer/administracion.lizer.com.mx/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home2/lizer/administracion.lizer.com.mx/vendor/composer/autoload_real.php(45): {closure}('6e3fae29631ef28...', '/home2/lizer/ad...')
+#1 /home2/lizer/administracion.lizer.com.mx/vendor/autoload.php(25): ComposerAutoloaderInit23ae73b46844bfa675a65057ebab9559::getLoader()
+#2 /home2/lizer/administracion.lizer.com.mx/public/index.php(34): require('/home2/lizer/ad...')
+#3 {main}
+  thrown in /home2/lizer/administracion.lizer.com.mx/vendor/composer/autoload_real.php on line 41
+[03-Sep-2024 14:00:17 America/Chicago] PHP Warning:  require(/home2/lizer/administracion.lizer.com.mx/vendor/composer/../symfony/deprecation-contracts/function.php): Failed to open stream: No such file or directory in /home2/lizer/administracion.lizer.com.mx/vendor/composer/autoload_real.php on line 41
+[03-Sep-2024 14:00:17 America/Chicago] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/lizer/administracion.lizer.com.mx/vendor/composer/../symfony/deprecation-contracts/function.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/lizer/administracion.lizer.com.mx/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home2/lizer/administracion.lizer.com.mx/vendor/composer/autoload_real.php(45): {closure}('6e3fae29631ef28...', '/home2/lizer/ad...')
+#1 /home2/lizer/administracion.lizer.com.mx/vendor/autoload.php(25): ComposerAutoloaderInit23ae73b46844bfa675a65057ebab9559::getLoader()
+#2 /home2/lizer/administracion.lizer.com.mx/public/index.php(34): require('/home2/lizer/ad...')
+#3 {main}
+  thrown in /home2/lizer/administracion.lizer.com.mx/vendor/composer/autoload_real.php on line 41
+[03-Sep-2024 14:00:17 America/Chicago] PHP Warning:  require(/home2/lizer/administracion.lizer.com.mx/vendor/composer/../symfony/deprecation-contracts/function.php): Failed to open stream: No such file or directory in /home2/lizer/administracion.lizer.com.mx/vendor/composer/autoload_real.php on line 41
+[03-Sep-2024 14:00:17 America/Chicago] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/lizer/administracion.lizer.com.mx/vendor/composer/../symfony/deprecation-contracts/function.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/lizer/administracion.lizer.com.mx/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home2/lizer/administracion.lizer.com.mx/vendor/composer/autoload_real.php(45): {closure}('6e3fae29631ef28...', '/home2/lizer/ad...')
+#1 /home2/lizer/administracion.lizer.com.mx/vendor/autoload.php(25): ComposerAutoloaderInit23ae73b46844bfa675a65057ebab9559::getLoader()
+#2 /home2/lizer/administracion.lizer.com.mx/public/index.php(34): require('/home2/lizer/ad...')
+#3 {main}
+  thrown in /home2/lizer/administracion.lizer.com.mx/vendor/composer/autoload_real.php on line 41
+[03-Sep-2024 14:00:17 America/Chicago] PHP Warning:  require(/home2/lizer/administracion.lizer.com.mx/vendor/composer/../symfony/deprecation-contracts/function.php): Failed to open stream: No such file or directory in /home2/lizer/administracion.lizer.com.mx/vendor/composer/autoload_real.php on line 41
+[03-Sep-2024 14:00:17 America/Chicago] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/lizer/administracion.lizer.com.mx/vendor/composer/../symfony/deprecation-contracts/function.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/lizer/administracion.lizer.com.mx/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home2/lizer/administracion.lizer.com.mx/vendor/composer/autoload_real.php(45): {closure}('6e3fae29631ef28...', '/home2/lizer/ad...')
+#1 /home2/lizer/administracion.lizer.com.mx/vendor/autoload.php(25): ComposerAutoloaderInit23ae73b46844bfa675a65057ebab9559::getLoader()
+#2 /home2/lizer/administracion.lizer.com.mx/public/index.php(34): require('/home2/lizer/ad...')
+#3 {main}
+  thrown in /home2/lizer/administracion.lizer.com.mx/vendor/composer/autoload_real.php on line 41
+[03-Sep-2024 14:00:17 America/Chicago] PHP Warning:  require(/home2/lizer/administracion.lizer.com.mx/vendor/composer/../symfony/deprecation-contracts/function.php): Failed to open stream: No such file or directory in /home2/lizer/administracion.lizer.com.mx/vendor/composer/autoload_real.php on line 41
+[03-Sep-2024 14:00:17 America/Chicago] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/lizer/administracion.lizer.com.mx/vendor/composer/../symfony/deprecation-contracts/function.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/lizer/administracion.lizer.com.mx/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home2/lizer/administracion.lizer.com.mx/vendor/composer/autoload_real.php(45): {closure}('6e3fae29631ef28...', '/home2/lizer/ad...')
+#1 /home2/lizer/administracion.lizer.com.mx/vendor/autoload.php(25): ComposerAutoloaderInit23ae73b46844bfa675a65057ebab9559::getLoader()
+#2 /home2/lizer/administracion.lizer.com.mx/public/index.php(34): require('/home2/lizer/ad...')
+#3 {main}
+  thrown in /home2/lizer/administracion.lizer.com.mx/vendor/composer/autoload_real.php on line 41
+[03-Sep-2024 14:00:17 America/Chicago] PHP Warning:  require(/home2/lizer/administracion.lizer.com.mx/vendor/composer/../symfony/deprecation-contracts/function.php): Failed to open stream: No such file or directory in /home2/lizer/administracion.lizer.com.mx/vendor/composer/autoload_real.php on line 41
+[03-Sep-2024 14:00:17 America/Chicago] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/lizer/administracion.lizer.com.mx/vendor/composer/../symfony/deprecation-contracts/function.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/lizer/administracion.lizer.com.mx/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home2/lizer/administracion.lizer.com.mx/vendor/composer/autoload_real.php(45): {closure}('6e3fae29631ef28...', '/home2/lizer/ad...')
+#1 /home2/lizer/administracion.lizer.com.mx/vendor/autoload.php(25): ComposerAutoloaderInit23ae73b46844bfa675a65057ebab9559::getLoader()
+#2 /home2/lizer/administracion.lizer.com.mx/public/index.php(34): require('/home2/lizer/ad...')
+#3 {main}
+  thrown in /home2/lizer/administracion.lizer.com.mx/vendor/composer/autoload_real.php on line 41
+[03-Sep-2024 14:00:17 America/Chicago] PHP Warning:  require(/home2/lizer/administracion.lizer.com.mx/vendor/composer/../symfony/deprecation-contracts/function.php): Failed to open stream: No such file or directory in /home2/lizer/administracion.lizer.com.mx/vendor/composer/autoload_real.php on line 41
+[03-Sep-2024 14:00:17 America/Chicago] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/lizer/administracion.lizer.com.mx/vendor/composer/../symfony/deprecation-contracts/function.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/lizer/administracion.lizer.com.mx/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home2/lizer/administracion.lizer.com.mx/vendor/composer/autoload_real.php(45): {closure}('6e3fae29631ef28...', '/home2/lizer/ad...')
+#1 /home2/lizer/administracion.lizer.com.mx/vendor/autoload.php(25): ComposerAutoloaderInit23ae73b46844bfa675a65057ebab9559::getLoader()
+#2 /home2/lizer/administracion.lizer.com.mx/public/index.php(34): require('/home2/lizer/ad...')
+#3 {main}
+  thrown in /home2/lizer/administracion.lizer.com.mx/vendor/composer/autoload_real.php on line 41
+[03-Sep-2024 14:00:18 America/Chicago] PHP Warning:  require(/home2/lizer/administracion.lizer.com.mx/vendor/composer/../symfony/deprecation-contracts/function.php): Failed to open stream: No such file or directory in /home2/lizer/administracion.lizer.com.mx/vendor/composer/autoload_real.php on line 41
+[03-Sep-2024 14:00:18 America/Chicago] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/lizer/administracion.lizer.com.mx/vendor/composer/../symfony/deprecation-contracts/function.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/lizer/administracion.lizer.com.mx/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home2/lizer/administracion.lizer.com.mx/vendor/composer/autoload_real.php(45): {closure}('6e3fae29631ef28...', '/home2/lizer/ad...')
+#1 /home2/lizer/administracion.lizer.com.mx/vendor/autoload.php(25): ComposerAutoloaderInit23ae73b46844bfa675a65057ebab9559::getLoader()
+#2 /home2/lizer/administracion.lizer.com.mx/public/index.php(34): require('/home2/lizer/ad...')
+#3 {main}
+  thrown in /home2/lizer/administracion.lizer.com.mx/vendor/composer/autoload_real.php on line 41
+[03-Sep-2024 14:00:18 America/Chicago] PHP Warning:  require(/home2/lizer/administracion.lizer.com.mx/vendor/composer/../symfony/deprecation-contracts/function.php): Failed to open stream: No such file or directory in /home2/lizer/administracion.lizer.com.mx/vendor/composer/autoload_real.php on line 41
+[03-Sep-2024 14:00:18 America/Chicago] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/lizer/administracion.lizer.com.mx/vendor/composer/../symfony/deprecation-contracts/function.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/lizer/administracion.lizer.com.mx/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home2/lizer/administracion.lizer.com.mx/vendor/composer/autoload_real.php(45): {closure}('6e3fae29631ef28...', '/home2/lizer/ad...')
+#1 /home2/lizer/administracion.lizer.com.mx/vendor/autoload.php(25): ComposerAutoloaderInit23ae73b46844bfa675a65057ebab9559::getLoader()
+#2 /home2/lizer/administracion.lizer.com.mx/public/index.php(34): require('/home2/lizer/ad...')
+#3 {main}
+  thrown in /home2/lizer/administracion.lizer.com.mx/vendor/composer/autoload_real.php on line 41
+[03-Sep-2024 14:00:18 America/Chicago] PHP Warning:  require(/home2/lizer/administracion.lizer.com.mx/vendor/composer/../symfony/deprecation-contracts/function.php): Failed to open stream: No such file or directory in /home2/lizer/administracion.lizer.com.mx/vendor/composer/autoload_real.php on line 41
+[03-Sep-2024 14:00:18 America/Chicago] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/lizer/administracion.lizer.com.mx/vendor/composer/../symfony/deprecation-contracts/function.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/lizer/administracion.lizer.com.mx/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home2/lizer/administracion.lizer.com.mx/vendor/composer/autoload_real.php(45): {closure}('6e3fae29631ef28...', '/home2/lizer/ad...')
+#1 /home2/lizer/administracion.lizer.com.mx/vendor/autoload.php(25): ComposerAutoloaderInit23ae73b46844bfa675a65057ebab9559::getLoader()
+#2 /home2/lizer/administracion.lizer.com.mx/public/index.php(34): require('/home2/lizer/ad...')
+#3 {main}
+  thrown in /home2/lizer/administracion.lizer.com.mx/vendor/composer/autoload_real.php on line 41
+[03-Sep-2024 14:00:18 America/Chicago] PHP Warning:  require(/home2/lizer/administracion.lizer.com.mx/vendor/composer/../symfony/deprecation-contracts/function.php): Failed to open stream: No such file or directory in /home2/lizer/administracion.lizer.com.mx/vendor/composer/autoload_real.php on line 41
+[03-Sep-2024 14:00:18 America/Chicago] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/lizer/administracion.lizer.com.mx/vendor/composer/../symfony/deprecation-contracts/function.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/lizer/administracion.lizer.com.mx/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home2/lizer/administracion.lizer.com.mx/vendor/composer/autoload_real.php(45): {closure}('6e3fae29631ef28...', '/home2/lizer/ad...')
+#1 /home2/lizer/administracion.lizer.com.mx/vendor/autoload.php(25): ComposerAutoloaderInit23ae73b46844bfa675a65057ebab9559::getLoader()
+#2 /home2/lizer/administracion.lizer.com.mx/public/index.php(34): require('/home2/lizer/ad...')
+#3 {main}
+  thrown in /home2/lizer/administracion.lizer.com.mx/vendor/composer/autoload_real.php on line 41
+[03-Sep-2024 14:00:19 America/Chicago] PHP Warning:  require(/home2/lizer/administracion.lizer.com.mx/vendor/composer/../symfony/deprecation-contracts/function.php): Failed to open stream: No such file or directory in /home2/lizer/administracion.lizer.com.mx/vendor/composer/autoload_real.php on line 41
+[03-Sep-2024 14:00:19 America/Chicago] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/lizer/administracion.lizer.com.mx/vendor/composer/../symfony/deprecation-contracts/function.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/lizer/administracion.lizer.com.mx/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home2/lizer/administracion.lizer.com.mx/vendor/composer/autoload_real.php(45): {closure}('6e3fae29631ef28...', '/home2/lizer/ad...')
+#1 /home2/lizer/administracion.lizer.com.mx/vendor/autoload.php(25): ComposerAutoloaderInit23ae73b46844bfa675a65057ebab9559::getLoader()
+#2 /home2/lizer/administracion.lizer.com.mx/public/index.php(34): require('/home2/lizer/ad...')
+#3 {main}
+  thrown in /home2/lizer/administracion.lizer.com.mx/vendor/composer/autoload_real.php on line 41
+[03-Sep-2024 14:00:19 America/Chicago] PHP Warning:  require(/home2/lizer/administracion.lizer.com.mx/vendor/composer/../symfony/deprecation-contracts/function.php): Failed to open stream: No such file or directory in /home2/lizer/administracion.lizer.com.mx/vendor/composer/autoload_real.php on line 41
+[03-Sep-2024 14:00:19 America/Chicago] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/lizer/administracion.lizer.com.mx/vendor/composer/../symfony/deprecation-contracts/function.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/lizer/administracion.lizer.com.mx/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home2/lizer/administracion.lizer.com.mx/vendor/composer/autoload_real.php(45): {closure}('6e3fae29631ef28...', '/home2/lizer/ad...')
+#1 /home2/lizer/administracion.lizer.com.mx/vendor/autoload.php(25): ComposerAutoloaderInit23ae73b46844bfa675a65057ebab9559::getLoader()
+#2 /home2/lizer/administracion.lizer.com.mx/public/index.php(34): require('/home2/lizer/ad...')
+#3 {main}
+  thrown in /home2/lizer/administracion.lizer.com.mx/vendor/composer/autoload_real.php on line 41
+[03-Sep-2024 14:00:19 America/Chicago] PHP Warning:  require(/home2/lizer/administracion.lizer.com.mx/vendor/composer/../symfony/deprecation-contracts/function.php): Failed to open stream: No such file or directory in /home2/lizer/administracion.lizer.com.mx/vendor/composer/autoload_real.php on line 41
+[03-Sep-2024 14:00:19 America/Chicago] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/lizer/administracion.lizer.com.mx/vendor/composer/../symfony/deprecation-contracts/function.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/lizer/administracion.lizer.com.mx/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home2/lizer/administracion.lizer.com.mx/vendor/composer/autoload_real.php(45): {closure}('6e3fae29631ef28...', '/home2/lizer/ad...')
+#1 /home2/lizer/administracion.lizer.com.mx/vendor/autoload.php(25): ComposerAutoloaderInit23ae73b46844bfa675a65057ebab9559::getLoader()
+#2 /home2/lizer/administracion.lizer.com.mx/public/index.php(34): require('/home2/lizer/ad...')
+#3 {main}
+  thrown in /home2/lizer/administracion.lizer.com.mx/vendor/composer/autoload_real.php on line 41
+[03-Sep-2024 14:00:41 America/Chicago] PHP Warning:  require(/home2/lizer/administracion.lizer.com.mx/vendor/composer/../symfony/deprecation-contracts/function.php): Failed to open stream: No such file or directory in /home2/lizer/administracion.lizer.com.mx/vendor/composer/autoload_real.php on line 41
+[03-Sep-2024 14:00:41 America/Chicago] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/lizer/administracion.lizer.com.mx/vendor/composer/../symfony/deprecation-contracts/function.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/lizer/administracion.lizer.com.mx/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home2/lizer/administracion.lizer.com.mx/vendor/composer/autoload_real.php(45): {closure}('6e3fae29631ef28...', '/home2/lizer/ad...')
+#1 /home2/lizer/administracion.lizer.com.mx/vendor/autoload.php(25): ComposerAutoloaderInit23ae73b46844bfa675a65057ebab9559::getLoader()
+#2 /home2/lizer/administracion.lizer.com.mx/public/index.php(34): require('/home2/lizer/ad...')
+#3 {main}
+  thrown in /home2/lizer/administracion.lizer.com.mx/vendor/composer/autoload_real.php on line 41
+[03-Sep-2024 14:01:05 America/Chicago] PHP Warning:  require(/home2/lizer/administracion.lizer.com.mx/vendor/composer/../symfony/deprecation-contracts/function.php): Failed to open stream: No such file or directory in /home2/lizer/administracion.lizer.com.mx/vendor/composer/autoload_real.php on line 41
+[03-Sep-2024 14:01:05 America/Chicago] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/lizer/administracion.lizer.com.mx/vendor/composer/../symfony/deprecation-contracts/function.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/lizer/administracion.lizer.com.mx/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home2/lizer/administracion.lizer.com.mx/vendor/composer/autoload_real.php(45): {closure}('6e3fae29631ef28...', '/home2/lizer/ad...')
+#1 /home2/lizer/administracion.lizer.com.mx/vendor/autoload.php(25): ComposerAutoloaderInit23ae73b46844bfa675a65057ebab9559::getLoader()
+#2 /home2/lizer/administracion.lizer.com.mx/public/index.php(34): require('/home2/lizer/ad...')
+#3 {main}
+  thrown in /home2/lizer/administracion.lizer.com.mx/vendor/composer/autoload_real.php on line 41
+[03-Sep-2024 14:01:29 America/Chicago] PHP Warning:  require(/home2/lizer/administracion.lizer.com.mx/vendor/composer/../symfony/deprecation-contracts/function.php): Failed to open stream: No such file or directory in /home2/lizer/administracion.lizer.com.mx/vendor/composer/autoload_real.php on line 41
+[03-Sep-2024 14:01:29 America/Chicago] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/lizer/administracion.lizer.com.mx/vendor/composer/../symfony/deprecation-contracts/function.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/lizer/administracion.lizer.com.mx/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home2/lizer/administracion.lizer.com.mx/vendor/composer/autoload_real.php(45): {closure}('6e3fae29631ef28...', '/home2/lizer/ad...')
+#1 /home2/lizer/administracion.lizer.com.mx/vendor/autoload.php(25): ComposerAutoloaderInit23ae73b46844bfa675a65057ebab9559::getLoader()
+#2 /home2/lizer/administracion.lizer.com.mx/public/index.php(34): require('/home2/lizer/ad...')
+#3 {main}
+  thrown in /home2/lizer/administracion.lizer.com.mx/vendor/composer/autoload_real.php on line 41
+[03-Sep-2024 14:01:50 America/Chicago] PHP Warning:  require(/home2/lizer/administracion.lizer.com.mx/vendor/composer/../symfony/deprecation-contracts/function.php): Failed to open stream: No such file or directory in /home2/lizer/administracion.lizer.com.mx/vendor/composer/autoload_real.php on line 41
+[03-Sep-2024 14:01:50 America/Chicago] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/lizer/administracion.lizer.com.mx/vendor/composer/../symfony/deprecation-contracts/function.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/lizer/administracion.lizer.com.mx/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home2/lizer/administracion.lizer.com.mx/vendor/composer/autoload_real.php(45): {closure}('6e3fae29631ef28...', '/home2/lizer/ad...')
+#1 /home2/lizer/administracion.lizer.com.mx/vendor/autoload.php(25): ComposerAutoloaderInit23ae73b46844bfa675a65057ebab9559::getLoader()
+#2 /home2/lizer/administracion.lizer.com.mx/public/index.php(34): require('/home2/lizer/ad...')
+#3 {main}
+  thrown in /home2/lizer/administracion.lizer.com.mx/vendor/composer/autoload_real.php on line 41
+[03-Sep-2024 14:02:20 America/Chicago] PHP Warning:  require(/home2/lizer/administracion.lizer.com.mx/vendor/composer/../symfony/deprecation-contracts/function.php): Failed to open stream: No such file or directory in /home2/lizer/administracion.lizer.com.mx/vendor/composer/autoload_real.php on line 41
+[03-Sep-2024 14:02:20 America/Chicago] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/lizer/administracion.lizer.com.mx/vendor/composer/../symfony/deprecation-contracts/function.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/lizer/administracion.lizer.com.mx/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home2/lizer/administracion.lizer.com.mx/vendor/composer/autoload_real.php(45): {closure}('6e3fae29631ef28...', '/home2/lizer/ad...')
+#1 /home2/lizer/administracion.lizer.com.mx/vendor/autoload.php(25): ComposerAutoloaderInit23ae73b46844bfa675a65057ebab9559::getLoader()
+#2 /home2/lizer/administracion.lizer.com.mx/public/index.php(34): require('/home2/lizer/ad...')
+#3 {main}
+  thrown in /home2/lizer/administracion.lizer.com.mx/vendor/composer/autoload_real.php on line 41
+[03-Sep-2024 14:04:57 America/Chicago] PHP Warning:  require(/home2/lizer/administracion.lizer.com.mx/vendor/composer/../symfony/deprecation-contracts/function.php): Failed to open stream: No such file or directory in /home2/lizer/administracion.lizer.com.mx/vendor/composer/autoload_real.php on line 41
+[03-Sep-2024 14:04:57 America/Chicago] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/lizer/administracion.lizer.com.mx/vendor/composer/../symfony/deprecation-contracts/function.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/lizer/administracion.lizer.com.mx/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home2/lizer/administracion.lizer.com.mx/vendor/composer/autoload_real.php(45): {closure}('6e3fae29631ef28...', '/home2/lizer/ad...')
+#1 /home2/lizer/administracion.lizer.com.mx/vendor/autoload.php(25): ComposerAutoloaderInit23ae73b46844bfa675a65057ebab9559::getLoader()
+#2 /home2/lizer/administracion.lizer.com.mx/public/index.php(34): require('/home2/lizer/ad...')
+#3 {main}
+  thrown in /home2/lizer/administracion.lizer.com.mx/vendor/composer/autoload_real.php on line 41
+[03-Sep-2024 14:21:41 America/Chicago] PHP Warning:  require(/home2/lizer/administracion.lizer.com.mx/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home2/lizer/administracion.lizer.com.mx/public/index.php on line 34
+[03-Sep-2024 14:21:41 America/Chicago] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/lizer/administracion.lizer.com.mx/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/lizer/administracion.lizer.com.mx/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home2/lizer/administracion.lizer.com.mx/public/index.php on line 34
+[13-Sep-2024 06:45:23 UTC] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 8388616 bytes) in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Collections/Arr.php on line 605
+[13-Sep-2024 06:52:24 UTC] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Support/Str.php on line 1042
+[13-Sep-2024 06:55:40 UTC] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Support/Str.php on line 1042
+[10-May-2025 20:08:35 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\ControlUnidadController::unidades_view() in /home2/lizer/administracion.lizer.com.mx/app/Http/Controllers/ControlUnidadController.php on line 16
+[31-May-2025 15:58:28 America/Chicago] PHP Fatal error:  Uncaught Error: Class "Barryvdh\DomPDF\ServiceProvider" not found in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:855
+Stack trace:
+#0 /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(789): Illuminate\Foundation\Application->resolveProvider('Barryvdh\\DomPDF...')
+#1 /home2/lizer/administracion.lizer.com.mx/bootstrap/app.php(44): Illuminate\Foundation\Application->register('Barryvdh\\DomPDF...')
+#2 /home2/lizer/administracion.lizer.com.mx/public/index.php(47): require_once('/home2/lizer/ad...')
+#3 {main}
+  thrown in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php on line 855
+[31-May-2025 15:58:30 America/Chicago] PHP Fatal error:  Uncaught Error: Class "Barryvdh\DomPDF\ServiceProvider" not found in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:855
+Stack trace:
+#0 /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(789): Illuminate\Foundation\Application->resolveProvider('Barryvdh\\DomPDF...')
+#1 /home2/lizer/administracion.lizer.com.mx/bootstrap/app.php(44): Illuminate\Foundation\Application->register('Barryvdh\\DomPDF...')
+#2 /home2/lizer/administracion.lizer.com.mx/public/index.php(47): require_once('/home2/lizer/ad...')
+#3 {main}
+  thrown in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php on line 855
+[31-May-2025 15:58:31 America/Chicago] PHP Fatal error:  Uncaught Error: Class "Barryvdh\DomPDF\ServiceProvider" not found in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:855
+Stack trace:
+#0 /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(789): Illuminate\Foundation\Application->resolveProvider('Barryvdh\\DomPDF...')
+#1 /home2/lizer/administracion.lizer.com.mx/bootstrap/app.php(44): Illuminate\Foundation\Application->register('Barryvdh\\DomPDF...')
+#2 /home2/lizer/administracion.lizer.com.mx/public/index.php(47): require_once('/home2/lizer/ad...')
+#3 {main}
+  thrown in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php on line 855
+[31-May-2025 15:58:31 America/Chicago] PHP Fatal error:  Uncaught Error: Class "Barryvdh\DomPDF\ServiceProvider" not found in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:855
+Stack trace:
+#0 /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(789): Illuminate\Foundation\Application->resolveProvider('Barryvdh\\DomPDF...')
+#1 /home2/lizer/administracion.lizer.com.mx/bootstrap/app.php(44): Illuminate\Foundation\Application->register('Barryvdh\\DomPDF...')
+#2 /home2/lizer/administracion.lizer.com.mx/public/index.php(47): require_once('/home2/lizer/ad...')
+#3 {main}
+  thrown in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php on line 855
+[31-May-2025 15:58:32 America/Chicago] PHP Fatal error:  Uncaught Error: Class "Barryvdh\DomPDF\ServiceProvider" not found in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:855
+Stack trace:
+#0 /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(789): Illuminate\Foundation\Application->resolveProvider('Barryvdh\\DomPDF...')
+#1 /home2/lizer/administracion.lizer.com.mx/bootstrap/app.php(44): Illuminate\Foundation\Application->register('Barryvdh\\DomPDF...')
+#2 /home2/lizer/administracion.lizer.com.mx/public/index.php(47): require_once('/home2/lizer/ad...')
+#3 {main}
+  thrown in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php on line 855
+[31-May-2025 15:58:33 America/Chicago] PHP Fatal error:  Uncaught Error: Class "Barryvdh\DomPDF\ServiceProvider" not found in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:855
+Stack trace:
+#0 /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(789): Illuminate\Foundation\Application->resolveProvider('Barryvdh\\DomPDF...')
+#1 /home2/lizer/administracion.lizer.com.mx/bootstrap/app.php(44): Illuminate\Foundation\Application->register('Barryvdh\\DomPDF...')
+#2 /home2/lizer/administracion.lizer.com.mx/public/index.php(47): require_once('/home2/lizer/ad...')
+#3 {main}
+  thrown in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php on line 855
+[31-May-2025 15:58:37 America/Chicago] PHP Fatal error:  Uncaught Error: Class "Barryvdh\DomPDF\ServiceProvider" not found in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:855
+Stack trace:
+#0 /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(789): Illuminate\Foundation\Application->resolveProvider('Barryvdh\\DomPDF...')
+#1 /home2/lizer/administracion.lizer.com.mx/bootstrap/app.php(44): Illuminate\Foundation\Application->register('Barryvdh\\DomPDF...')
+#2 /home2/lizer/administracion.lizer.com.mx/public/index.php(47): require_once('/home2/lizer/ad...')
+#3 {main}
+  thrown in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php on line 855
+[31-May-2025 15:58:39 America/Chicago] PHP Fatal error:  Uncaught Error: Class "Barryvdh\DomPDF\ServiceProvider" not found in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:855
+Stack trace:
+#0 /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(789): Illuminate\Foundation\Application->resolveProvider('Barryvdh\\DomPDF...')
+#1 /home2/lizer/administracion.lizer.com.mx/bootstrap/app.php(44): Illuminate\Foundation\Application->register('Barryvdh\\DomPDF...')
+#2 /home2/lizer/administracion.lizer.com.mx/public/index.php(47): require_once('/home2/lizer/ad...')
+#3 {main}
+  thrown in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php on line 855
+[31-May-2025 15:58:41 America/Chicago] PHP Fatal error:  Uncaught Error: Class "Barryvdh\DomPDF\ServiceProvider" not found in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:855
+Stack trace:
+#0 /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(789): Illuminate\Foundation\Application->resolveProvider('Barryvdh\\DomPDF...')
+#1 /home2/lizer/administracion.lizer.com.mx/bootstrap/app.php(44): Illuminate\Foundation\Application->register('Barryvdh\\DomPDF...')
+#2 /home2/lizer/administracion.lizer.com.mx/public/index.php(47): require_once('/home2/lizer/ad...')
+#3 {main}
+  thrown in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php on line 855
+[31-May-2025 15:58:43 America/Chicago] PHP Fatal error:  Uncaught Error: Class "Barryvdh\DomPDF\ServiceProvider" not found in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:855
+Stack trace:
+#0 /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(789): Illuminate\Foundation\Application->resolveProvider('Barryvdh\\DomPDF...')
+#1 /home2/lizer/administracion.lizer.com.mx/bootstrap/app.php(44): Illuminate\Foundation\Application->register('Barryvdh\\DomPDF...')
+#2 /home2/lizer/administracion.lizer.com.mx/public/index.php(47): require_once('/home2/lizer/ad...')
+#3 {main}
+  thrown in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php on line 855
+[31-May-2025 15:58:43 America/Chicago] PHP Fatal error:  Uncaught Error: Class "Barryvdh\DomPDF\ServiceProvider" not found in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:855
+Stack trace:
+#0 /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(789): Illuminate\Foundation\Application->resolveProvider('Barryvdh\\DomPDF...')
+#1 /home2/lizer/administracion.lizer.com.mx/bootstrap/app.php(44): Illuminate\Foundation\Application->register('Barryvdh\\DomPDF...')
+#2 /home2/lizer/administracion.lizer.com.mx/public/index.php(47): require_once('/home2/lizer/ad...')
+#3 {main}
+  thrown in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php on line 855
+[31-May-2025 15:58:44 America/Chicago] PHP Fatal error:  Uncaught Error: Class "Barryvdh\DomPDF\ServiceProvider" not found in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:855
+Stack trace:
+#0 /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(789): Illuminate\Foundation\Application->resolveProvider('Barryvdh\\DomPDF...')
+#1 /home2/lizer/administracion.lizer.com.mx/bootstrap/app.php(44): Illuminate\Foundation\Application->register('Barryvdh\\DomPDF...')
+#2 /home2/lizer/administracion.lizer.com.mx/public/index.php(47): require_once('/home2/lizer/ad...')
+#3 {main}
+  thrown in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php on line 855
+[31-May-2025 15:58:44 America/Chicago] PHP Fatal error:  Uncaught Error: Class "Barryvdh\DomPDF\ServiceProvider" not found in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:855
+Stack trace:
+#0 /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(789): Illuminate\Foundation\Application->resolveProvider('Barryvdh\\DomPDF...')
+#1 /home2/lizer/administracion.lizer.com.mx/bootstrap/app.php(44): Illuminate\Foundation\Application->register('Barryvdh\\DomPDF...')
+#2 /home2/lizer/administracion.lizer.com.mx/public/index.php(47): require_once('/home2/lizer/ad...')
+#3 {main}
+  thrown in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php on line 855
+[31-May-2025 15:58:44 America/Chicago] PHP Fatal error:  Uncaught Error: Class "Barryvdh\DomPDF\ServiceProvider" not found in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:855
+Stack trace:
+#0 /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(789): Illuminate\Foundation\Application->resolveProvider('Barryvdh\\DomPDF...')
+#1 /home2/lizer/administracion.lizer.com.mx/bootstrap/app.php(44): Illuminate\Foundation\Application->register('Barryvdh\\DomPDF...')
+#2 /home2/lizer/administracion.lizer.com.mx/public/index.php(47): require_once('/home2/lizer/ad...')
+#3 {main}
+  thrown in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php on line 855
+[31-May-2025 16:05:45 America/Chicago] PHP Fatal error:  Uncaught Error: Class "Barryvdh\DomPDF\ServiceProvider" not found in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:855
+Stack trace:
+#0 /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(789): Illuminate\Foundation\Application->resolveProvider('Barryvdh\\DomPDF...')
+#1 /home2/lizer/administracion.lizer.com.mx/bootstrap/app.php(44): Illuminate\Foundation\Application->register('Barryvdh\\DomPDF...')
+#2 /home2/lizer/administracion.lizer.com.mx/public/index.php(47): require_once('/home2/lizer/ad...')
+#3 {main}
+  thrown in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php on line 855
+[31-May-2025 16:05:46 America/Chicago] PHP Fatal error:  Uncaught Error: Class "Barryvdh\DomPDF\ServiceProvider" not found in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:855
+Stack trace:
+#0 /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(789): Illuminate\Foundation\Application->resolveProvider('Barryvdh\\DomPDF...')
+#1 /home2/lizer/administracion.lizer.com.mx/bootstrap/app.php(44): Illuminate\Foundation\Application->register('Barryvdh\\DomPDF...')
+#2 /home2/lizer/administracion.lizer.com.mx/public/index.php(47): require_once('/home2/lizer/ad...')
+#3 {main}
+  thrown in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php on line 855
+[31-May-2025 16:05:48 America/Chicago] PHP Fatal error:  Uncaught Error: Class "Barryvdh\DomPDF\ServiceProvider" not found in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:855
+Stack trace:
+#0 /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(789): Illuminate\Foundation\Application->resolveProvider('Barryvdh\\DomPDF...')
+#1 /home2/lizer/administracion.lizer.com.mx/bootstrap/app.php(44): Illuminate\Foundation\Application->register('Barryvdh\\DomPDF...')
+#2 /home2/lizer/administracion.lizer.com.mx/public/index.php(47): require_once('/home2/lizer/ad...')
+#3 {main}
+  thrown in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php on line 855
+[31-May-2025 16:05:49 America/Chicago] PHP Fatal error:  Uncaught Error: Class "Barryvdh\DomPDF\ServiceProvider" not found in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:855
+Stack trace:
+#0 /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(789): Illuminate\Foundation\Application->resolveProvider('Barryvdh\\DomPDF...')
+#1 /home2/lizer/administracion.lizer.com.mx/bootstrap/app.php(44): Illuminate\Foundation\Application->register('Barryvdh\\DomPDF...')
+#2 /home2/lizer/administracion.lizer.com.mx/public/index.php(47): require_once('/home2/lizer/ad...')
+#3 {main}
+  thrown in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php on line 855
+[31-May-2025 16:07:14 America/Chicago] PHP Fatal error:  Uncaught Error: Class "Barryvdh\DomPDF\ServiceProvider" not found in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:855
+Stack trace:
+#0 /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(789): Illuminate\Foundation\Application->resolveProvider('Barryvdh\\DomPDF...')
+#1 /home2/lizer/administracion.lizer.com.mx/bootstrap/app.php(44): Illuminate\Foundation\Application->register('Barryvdh\\DomPDF...')
+#2 /home2/lizer/administracion.lizer.com.mx/public/index.php(47): require_once('/home2/lizer/ad...')
+#3 {main}
+  thrown in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php on line 855
+[31-May-2025 16:07:16 America/Chicago] PHP Fatal error:  Uncaught Error: Class "Barryvdh\DomPDF\ServiceProvider" not found in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:855
+Stack trace:
+#0 /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(789): Illuminate\Foundation\Application->resolveProvider('Barryvdh\\DomPDF...')
+#1 /home2/lizer/administracion.lizer.com.mx/bootstrap/app.php(44): Illuminate\Foundation\Application->register('Barryvdh\\DomPDF...')
+#2 /home2/lizer/administracion.lizer.com.mx/public/index.php(47): require_once('/home2/lizer/ad...')
+#3 {main}
+  thrown in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php on line 855
+[31-May-2025 16:07:31 America/Chicago] PHP Fatal error:  Uncaught Error: Class "Barryvdh\DomPDF\ServiceProvider" not found in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:855
+Stack trace:
+#0 /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(789): Illuminate\Foundation\Application->resolveProvider('Barryvdh\\DomPDF...')
+#1 /home2/lizer/administracion.lizer.com.mx/bootstrap/app.php(44): Illuminate\Foundation\Application->register('Barryvdh\\DomPDF...')
+#2 /home2/lizer/administracion.lizer.com.mx/public/index.php(47): require_once('/home2/lizer/ad...')
+#3 {main}
+  thrown in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php on line 855
+[31-May-2025 16:07:32 America/Chicago] PHP Fatal error:  Uncaught Error: Class "Barryvdh\DomPDF\ServiceProvider" not found in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:855
+Stack trace:
+#0 /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(789): Illuminate\Foundation\Application->resolveProvider('Barryvdh\\DomPDF...')
+#1 /home2/lizer/administracion.lizer.com.mx/bootstrap/app.php(44): Illuminate\Foundation\Application->register('Barryvdh\\DomPDF...')
+#2 /home2/lizer/administracion.lizer.com.mx/public/index.php(47): require_once('/home2/lizer/ad...')
+#3 {main}
+  thrown in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php on line 855
+[31-May-2025 16:07:33 America/Chicago] PHP Fatal error:  Uncaught Error: Class "Barryvdh\DomPDF\ServiceProvider" not found in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:855
+Stack trace:
+#0 /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(789): Illuminate\Foundation\Application->resolveProvider('Barryvdh\\DomPDF...')
+#1 /home2/lizer/administracion.lizer.com.mx/bootstrap/app.php(44): Illuminate\Foundation\Application->register('Barryvdh\\DomPDF...')
+#2 /home2/lizer/administracion.lizer.com.mx/public/index.php(47): require_once('/home2/lizer/ad...')
+#3 {main}
+  thrown in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php on line 855
+[31-May-2025 16:07:33 America/Chicago] PHP Fatal error:  Uncaught Error: Class "Barryvdh\DomPDF\ServiceProvider" not found in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:855
+Stack trace:
+#0 /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(789): Illuminate\Foundation\Application->resolveProvider('Barryvdh\\DomPDF...')
+#1 /home2/lizer/administracion.lizer.com.mx/bootstrap/app.php(44): Illuminate\Foundation\Application->register('Barryvdh\\DomPDF...')
+#2 /home2/lizer/administracion.lizer.com.mx/public/index.php(47): require_once('/home2/lizer/ad...')
+#3 {main}
+  thrown in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php on line 855
+[31-May-2025 16:07:33 America/Chicago] PHP Fatal error:  Uncaught Error: Class "Barryvdh\DomPDF\ServiceProvider" not found in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:855
+Stack trace:
+#0 /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(789): Illuminate\Foundation\Application->resolveProvider('Barryvdh\\DomPDF...')
+#1 /home2/lizer/administracion.lizer.com.mx/bootstrap/app.php(44): Illuminate\Foundation\Application->register('Barryvdh\\DomPDF...')
+#2 /home2/lizer/administracion.lizer.com.mx/public/index.php(47): require_once('/home2/lizer/ad...')
+#3 {main}
+  thrown in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php on line 855
+[31-May-2025 16:07:33 America/Chicago] PHP Fatal error:  Uncaught Error: Class "Barryvdh\DomPDF\ServiceProvider" not found in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:855
+Stack trace:
+#0 /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(789): Illuminate\Foundation\Application->resolveProvider('Barryvdh\\DomPDF...')
+#1 /home2/lizer/administracion.lizer.com.mx/bootstrap/app.php(44): Illuminate\Foundation\Application->register('Barryvdh\\DomPDF...')
+#2 /home2/lizer/administracion.lizer.com.mx/public/index.php(47): require_once('/home2/lizer/ad...')
+#3 {main}
+  thrown in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php on line 855
+[31-May-2025 16:07:34 America/Chicago] PHP Fatal error:  Uncaught Error: Class "Barryvdh\DomPDF\ServiceProvider" not found in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:855
+Stack trace:
+#0 /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(789): Illuminate\Foundation\Application->resolveProvider('Barryvdh\\DomPDF...')
+#1 /home2/lizer/administracion.lizer.com.mx/bootstrap/app.php(44): Illuminate\Foundation\Application->register('Barryvdh\\DomPDF...')
+#2 /home2/lizer/administracion.lizer.com.mx/public/index.php(47): require_once('/home2/lizer/ad...')
+#3 {main}
+  thrown in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php on line 855
+[31-May-2025 16:07:34 America/Chicago] PHP Fatal error:  Uncaught Error: Class "Barryvdh\DomPDF\ServiceProvider" not found in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:855
+Stack trace:
+#0 /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(789): Illuminate\Foundation\Application->resolveProvider('Barryvdh\\DomPDF...')
+#1 /home2/lizer/administracion.lizer.com.mx/bootstrap/app.php(44): Illuminate\Foundation\Application->register('Barryvdh\\DomPDF...')
+#2 /home2/lizer/administracion.lizer.com.mx/public/index.php(47): require_once('/home2/lizer/ad...')
+#3 {main}
+  thrown in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php on line 855
+[31-May-2025 16:07:34 America/Chicago] PHP Fatal error:  Uncaught Error: Class "Barryvdh\DomPDF\ServiceProvider" not found in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:855
+Stack trace:
+#0 /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(789): Illuminate\Foundation\Application->resolveProvider('Barryvdh\\DomPDF...')
+#1 /home2/lizer/administracion.lizer.com.mx/bootstrap/app.php(44): Illuminate\Foundation\Application->register('Barryvdh\\DomPDF...')
+#2 /home2/lizer/administracion.lizer.com.mx/public/index.php(47): require_once('/home2/lizer/ad...')
+#3 {main}
+  thrown in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php on line 855
+[31-May-2025 16:07:34 America/Chicago] PHP Fatal error:  Uncaught Error: Class "Barryvdh\DomPDF\ServiceProvider" not found in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:855
+Stack trace:
+#0 /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(789): Illuminate\Foundation\Application->resolveProvider('Barryvdh\\DomPDF...')
+#1 /home2/lizer/administracion.lizer.com.mx/bootstrap/app.php(44): Illuminate\Foundation\Application->register('Barryvdh\\DomPDF...')
+#2 /home2/lizer/administracion.lizer.com.mx/public/index.php(47): require_once('/home2/lizer/ad...')
+#3 {main}
+  thrown in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php on line 855
+[31-May-2025 16:07:34 America/Chicago] PHP Fatal error:  Uncaught Error: Class "Barryvdh\DomPDF\ServiceProvider" not found in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:855
+Stack trace:
+#0 /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(789): Illuminate\Foundation\Application->resolveProvider('Barryvdh\\DomPDF...')
+#1 /home2/lizer/administracion.lizer.com.mx/bootstrap/app.php(44): Illuminate\Foundation\Application->register('Barryvdh\\DomPDF...')
+#2 /home2/lizer/administracion.lizer.com.mx/public/index.php(47): require_once('/home2/lizer/ad...')
+#3 {main}
+  thrown in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php on line 855
+[31-May-2025 16:07:34 America/Chicago] PHP Fatal error:  Uncaught Error: Class "Barryvdh\DomPDF\ServiceProvider" not found in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:855
+Stack trace:
+#0 /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(789): Illuminate\Foundation\Application->resolveProvider('Barryvdh\\DomPDF...')
+#1 /home2/lizer/administracion.lizer.com.mx/bootstrap/app.php(44): Illuminate\Foundation\Application->register('Barryvdh\\DomPDF...')
+#2 /home2/lizer/administracion.lizer.com.mx/public/index.php(47): require_once('/home2/lizer/ad...')
+#3 {main}
+  thrown in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php on line 855
+[31-May-2025 16:07:35 America/Chicago] PHP Fatal error:  Uncaught Error: Class "Barryvdh\DomPDF\ServiceProvider" not found in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:855
+Stack trace:
+#0 /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(789): Illuminate\Foundation\Application->resolveProvider('Barryvdh\\DomPDF...')
+#1 /home2/lizer/administracion.lizer.com.mx/bootstrap/app.php(44): Illuminate\Foundation\Application->register('Barryvdh\\DomPDF...')
+#2 /home2/lizer/administracion.lizer.com.mx/public/index.php(47): require_once('/home2/lizer/ad...')
+#3 {main}
+  thrown in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php on line 855
+[31-May-2025 16:07:35 America/Chicago] PHP Fatal error:  Uncaught Error: Class "Barryvdh\DomPDF\ServiceProvider" not found in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:855
+Stack trace:
+#0 /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(789): Illuminate\Foundation\Application->resolveProvider('Barryvdh\\DomPDF...')
+#1 /home2/lizer/administracion.lizer.com.mx/bootstrap/app.php(44): Illuminate\Foundation\Application->register('Barryvdh\\DomPDF...')
+#2 /home2/lizer/administracion.lizer.com.mx/public/index.php(47): require_once('/home2/lizer/ad...')
+#3 {main}
+  thrown in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php on line 855
+[31-May-2025 16:07:35 America/Chicago] PHP Fatal error:  Uncaught Error: Class "Barryvdh\DomPDF\ServiceProvider" not found in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:855
+Stack trace:
+#0 /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(789): Illuminate\Foundation\Application->resolveProvider('Barryvdh\\DomPDF...')
+#1 /home2/lizer/administracion.lizer.com.mx/bootstrap/app.php(44): Illuminate\Foundation\Application->register('Barryvdh\\DomPDF...')
+#2 /home2/lizer/administracion.lizer.com.mx/public/index.php(47): require_once('/home2/lizer/ad...')
+#3 {main}
+  thrown in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php on line 855
+[31-May-2025 16:07:35 America/Chicago] PHP Fatal error:  Uncaught Error: Class "Barryvdh\DomPDF\ServiceProvider" not found in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:855
+Stack trace:
+#0 /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(789): Illuminate\Foundation\Application->resolveProvider('Barryvdh\\DomPDF...')
+#1 /home2/lizer/administracion.lizer.com.mx/bootstrap/app.php(44): Illuminate\Foundation\Application->register('Barryvdh\\DomPDF...')
+#2 /home2/lizer/administracion.lizer.com.mx/public/index.php(47): require_once('/home2/lizer/ad...')
+#3 {main}
+  thrown in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php on line 855
+[31-May-2025 16:07:35 America/Chicago] PHP Fatal error:  Uncaught Error: Class "Barryvdh\DomPDF\ServiceProvider" not found in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:855
+Stack trace:
+#0 /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(789): Illuminate\Foundation\Application->resolveProvider('Barryvdh\\DomPDF...')
+#1 /home2/lizer/administracion.lizer.com.mx/bootstrap/app.php(44): Illuminate\Foundation\Application->register('Barryvdh\\DomPDF...')
+#2 /home2/lizer/administracion.lizer.com.mx/public/index.php(47): require_once('/home2/lizer/ad...')
+#3 {main}
+  thrown in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php on line 855
+[31-May-2025 16:08:34 America/Chicago] PHP Fatal error:  Uncaught BadMethodCallException: Method Illuminate\Foundation\Application::configure does not exist. in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Macroable/Traits/Macroable.php:112
+Stack trace:
+#0 /home2/lizer/administracion.lizer.com.mx/bootstrap/app.php(46): Illuminate\Foundation\Application->__call('configure', Array)
+#1 /home2/lizer/administracion.lizer.com.mx/public/index.php(47): require_once('/home2/lizer/ad...')
+#2 {main}
+  thrown in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Macroable/Traits/Macroable.php on line 112
+[31-May-2025 16:08:36 America/Chicago] PHP Fatal error:  Uncaught BadMethodCallException: Method Illuminate\Foundation\Application::configure does not exist. in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Macroable/Traits/Macroable.php:112
+Stack trace:
+#0 /home2/lizer/administracion.lizer.com.mx/bootstrap/app.php(46): Illuminate\Foundation\Application->__call('configure', Array)
+#1 /home2/lizer/administracion.lizer.com.mx/public/index.php(47): require_once('/home2/lizer/ad...')
+#2 {main}
+  thrown in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Macroable/Traits/Macroable.php on line 112
+[31-May-2025 16:08:36 America/Chicago] PHP Fatal error:  Uncaught BadMethodCallException: Method Illuminate\Foundation\Application::configure does not exist. in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Macroable/Traits/Macroable.php:112
+Stack trace:
+#0 /home2/lizer/administracion.lizer.com.mx/bootstrap/app.php(46): Illuminate\Foundation\Application->__call('configure', Array)
+#1 /home2/lizer/administracion.lizer.com.mx/public/index.php(47): require_once('/home2/lizer/ad...')
+#2 {main}
+  thrown in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Macroable/Traits/Macroable.php on line 112
+[31-May-2025 16:18:09 America/Chicago] PHP Fatal error:  Uncaught Error: Class "Barryvdh\DomPDF\ServiceProvider" not found in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:855
+Stack trace:
+#0 /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(789): Illuminate\Foundation\Application->resolveProvider('Barryvdh\\DomPDF...')
+#1 /home2/lizer/administracion.lizer.com.mx/bootstrap/app.php(44): Illuminate\Foundation\Application->register('Barryvdh\\DomPDF...')
+#2 /home2/lizer/administracion.lizer.com.mx/public/index.php(47): require_once('/home2/lizer/ad...')
+#3 {main}
+  thrown in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php on line 855
+[31-May-2025 16:18:10 America/Chicago] PHP Fatal error:  Uncaught Error: Class "Barryvdh\DomPDF\ServiceProvider" not found in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:855
+Stack trace:
+#0 /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(789): Illuminate\Foundation\Application->resolveProvider('Barryvdh\\DomPDF...')
+#1 /home2/lizer/administracion.lizer.com.mx/bootstrap/app.php(44): Illuminate\Foundation\Application->register('Barryvdh\\DomPDF...')
+#2 /home2/lizer/administracion.lizer.com.mx/public/index.php(47): require_once('/home2/lizer/ad...')
+#3 {main}
+  thrown in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php on line 855
+[31-May-2025 16:18:10 America/Chicago] PHP Fatal error:  Uncaught Error: Class "Barryvdh\DomPDF\ServiceProvider" not found in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:855
+Stack trace:
+#0 /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(789): Illuminate\Foundation\Application->resolveProvider('Barryvdh\\DomPDF...')
+#1 /home2/lizer/administracion.lizer.com.mx/bootstrap/app.php(44): Illuminate\Foundation\Application->register('Barryvdh\\DomPDF...')
+#2 /home2/lizer/administracion.lizer.com.mx/public/index.php(47): require_once('/home2/lizer/ad...')
+#3 {main}
+  thrown in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php on line 855
+[31-May-2025 16:18:11 America/Chicago] PHP Fatal error:  Uncaught Error: Class "Barryvdh\DomPDF\ServiceProvider" not found in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:855
+Stack trace:
+#0 /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(789): Illuminate\Foundation\Application->resolveProvider('Barryvdh\\DomPDF...')
+#1 /home2/lizer/administracion.lizer.com.mx/bootstrap/app.php(44): Illuminate\Foundation\Application->register('Barryvdh\\DomPDF...')
+#2 /home2/lizer/administracion.lizer.com.mx/public/index.php(47): require_once('/home2/lizer/ad...')
+#3 {main}
+  thrown in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php on line 855
+[31-May-2025 16:18:11 America/Chicago] PHP Fatal error:  Uncaught Error: Class "Barryvdh\DomPDF\ServiceProvider" not found in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:855
+Stack trace:
+#0 /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(789): Illuminate\Foundation\Application->resolveProvider('Barryvdh\\DomPDF...')
+#1 /home2/lizer/administracion.lizer.com.mx/bootstrap/app.php(44): Illuminate\Foundation\Application->register('Barryvdh\\DomPDF...')
+#2 /home2/lizer/administracion.lizer.com.mx/public/index.php(47): require_once('/home2/lizer/ad...')
+#3 {main}
+  thrown in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php on line 855
+[31-May-2025 16:18:11 America/Chicago] PHP Fatal error:  Uncaught Error: Class "Barryvdh\DomPDF\ServiceProvider" not found in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:855
+Stack trace:
+#0 /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(789): Illuminate\Foundation\Application->resolveProvider('Barryvdh\\DomPDF...')
+#1 /home2/lizer/administracion.lizer.com.mx/bootstrap/app.php(44): Illuminate\Foundation\Application->register('Barryvdh\\DomPDF...')
+#2 /home2/lizer/administracion.lizer.com.mx/public/index.php(47): require_once('/home2/lizer/ad...')
+#3 {main}
+  thrown in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php on line 855
+[31-May-2025 16:18:11 America/Chicago] PHP Fatal error:  Uncaught Error: Class "Barryvdh\DomPDF\ServiceProvider" not found in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:855
+Stack trace:
+#0 /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(789): Illuminate\Foundation\Application->resolveProvider('Barryvdh\\DomPDF...')
+#1 /home2/lizer/administracion.lizer.com.mx/bootstrap/app.php(44): Illuminate\Foundation\Application->register('Barryvdh\\DomPDF...')
+#2 /home2/lizer/administracion.lizer.com.mx/public/index.php(47): require_once('/home2/lizer/ad...')
+#3 {main}
+  thrown in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php on line 855
+[31-May-2025 16:18:16 America/Chicago] PHP Fatal error:  Uncaught Error: Class "Barryvdh\DomPDF\ServiceProvider" not found in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:855
+Stack trace:
+#0 /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(789): Illuminate\Foundation\Application->resolveProvider('Barryvdh\\DomPDF...')
+#1 /home2/lizer/administracion.lizer.com.mx/bootstrap/app.php(44): Illuminate\Foundation\Application->register('Barryvdh\\DomPDF...')
+#2 /home2/lizer/administracion.lizer.com.mx/public/index.php(47): require_once('/home2/lizer/ad...')
+#3 {main}
+  thrown in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php on line 855
+[31-May-2025 16:18:17 America/Chicago] PHP Fatal error:  Uncaught Error: Class "Barryvdh\DomPDF\ServiceProvider" not found in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:855
+Stack trace:
+#0 /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(789): Illuminate\Foundation\Application->resolveProvider('Barryvdh\\DomPDF...')
+#1 /home2/lizer/administracion.lizer.com.mx/bootstrap/app.php(44): Illuminate\Foundation\Application->register('Barryvdh\\DomPDF...')
+#2 /home2/lizer/administracion.lizer.com.mx/public/index.php(47): require_once('/home2/lizer/ad...')
+#3 {main}
+  thrown in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php on line 855
+[31-May-2025 16:18:17 America/Chicago] PHP Fatal error:  Uncaught Error: Class "Barryvdh\DomPDF\ServiceProvider" not found in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:855
+Stack trace:
+#0 /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(789): Illuminate\Foundation\Application->resolveProvider('Barryvdh\\DomPDF...')
+#1 /home2/lizer/administracion.lizer.com.mx/bootstrap/app.php(44): Illuminate\Foundation\Application->register('Barryvdh\\DomPDF...')
+#2 /home2/lizer/administracion.lizer.com.mx/public/index.php(47): require_once('/home2/lizer/ad...')
+#3 {main}
+  thrown in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php on line 855
+[31-May-2025 16:18:17 America/Chicago] PHP Fatal error:  Uncaught Error: Class "Barryvdh\DomPDF\ServiceProvider" not found in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:855
+Stack trace:
+#0 /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(789): Illuminate\Foundation\Application->resolveProvider('Barryvdh\\DomPDF...')
+#1 /home2/lizer/administracion.lizer.com.mx/bootstrap/app.php(44): Illuminate\Foundation\Application->register('Barryvdh\\DomPDF...')
+#2 /home2/lizer/administracion.lizer.com.mx/public/index.php(47): require_once('/home2/lizer/ad...')
+#3 {main}
+  thrown in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php on line 855
+[31-May-2025 16:18:17 America/Chicago] PHP Fatal error:  Uncaught Error: Class "Barryvdh\DomPDF\ServiceProvider" not found in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:855
+Stack trace:
+#0 /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(789): Illuminate\Foundation\Application->resolveProvider('Barryvdh\\DomPDF...')
+#1 /home2/lizer/administracion.lizer.com.mx/bootstrap/app.php(44): Illuminate\Foundation\Application->register('Barryvdh\\DomPDF...')
+#2 /home2/lizer/administracion.lizer.com.mx/public/index.php(47): require_once('/home2/lizer/ad...')
+#3 {main}
+  thrown in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php on line 855
+[31-May-2025 16:18:17 America/Chicago] PHP Fatal error:  Uncaught Error: Class "Barryvdh\DomPDF\ServiceProvider" not found in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:855
+Stack trace:
+#0 /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(789): Illuminate\Foundation\Application->resolveProvider('Barryvdh\\DomPDF...')
+#1 /home2/lizer/administracion.lizer.com.mx/bootstrap/app.php(44): Illuminate\Foundation\Application->register('Barryvdh\\DomPDF...')
+#2 /home2/lizer/administracion.lizer.com.mx/public/index.php(47): require_once('/home2/lizer/ad...')
+#3 {main}
+  thrown in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php on line 855
+[31-May-2025 16:18:17 America/Chicago] PHP Fatal error:  Uncaught Error: Class "Barryvdh\DomPDF\ServiceProvider" not found in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:855
+Stack trace:
+#0 /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(789): Illuminate\Foundation\Application->resolveProvider('Barryvdh\\DomPDF...')
+#1 /home2/lizer/administracion.lizer.com.mx/bootstrap/app.php(44): Illuminate\Foundation\Application->register('Barryvdh\\DomPDF...')
+#2 /home2/lizer/administracion.lizer.com.mx/public/index.php(47): require_once('/home2/lizer/ad...')
+#3 {main}
+  thrown in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php on line 855
+[31-May-2025 16:39:08 America/Chicago] PHP Fatal error:  Uncaught Error: Class "Barryvdh\DomPDF\ServiceProvider" not found in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:855
+Stack trace:
+#0 /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(789): Illuminate\Foundation\Application->resolveProvider('Barryvdh\\DomPDF...')
+#1 /home2/lizer/administracion.lizer.com.mx/bootstrap/app.php(44): Illuminate\Foundation\Application->register('Barryvdh\\DomPDF...')
+#2 /home2/lizer/administracion.lizer.com.mx/public/index.php(47): require_once('/home2/lizer/ad...')
+#3 {main}
+  thrown in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php on line 855
+[31-May-2025 16:39:09 America/Chicago] PHP Fatal error:  Uncaught Error: Class "Barryvdh\DomPDF\ServiceProvider" not found in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:855
+Stack trace:
+#0 /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(789): Illuminate\Foundation\Application->resolveProvider('Barryvdh\\DomPDF...')
+#1 /home2/lizer/administracion.lizer.com.mx/bootstrap/app.php(44): Illuminate\Foundation\Application->register('Barryvdh\\DomPDF...')
+#2 /home2/lizer/administracion.lizer.com.mx/public/index.php(47): require_once('/home2/lizer/ad...')
+#3 {main}
+  thrown in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php on line 855
+[31-May-2025 16:39:09 America/Chicago] PHP Fatal error:  Uncaught Error: Class "Barryvdh\DomPDF\ServiceProvider" not found in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:855
+Stack trace:
+#0 /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(789): Illuminate\Foundation\Application->resolveProvider('Barryvdh\\DomPDF...')
+#1 /home2/lizer/administracion.lizer.com.mx/bootstrap/app.php(44): Illuminate\Foundation\Application->register('Barryvdh\\DomPDF...')
+#2 /home2/lizer/administracion.lizer.com.mx/public/index.php(47): require_once('/home2/lizer/ad...')
+#3 {main}
+  thrown in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php on line 855
+[31-May-2025 16:39:09 America/Chicago] PHP Fatal error:  Uncaught Error: Class "Barryvdh\DomPDF\ServiceProvider" not found in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:855
+Stack trace:
+#0 /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(789): Illuminate\Foundation\Application->resolveProvider('Barryvdh\\DomPDF...')
+#1 /home2/lizer/administracion.lizer.com.mx/bootstrap/app.php(44): Illuminate\Foundation\Application->register('Barryvdh\\DomPDF...')
+#2 /home2/lizer/administracion.lizer.com.mx/public/index.php(47): require_once('/home2/lizer/ad...')
+#3 {main}
+  thrown in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php on line 855
+[31-May-2025 16:39:19 America/Chicago] PHP Fatal error:  Uncaught Error: Class "Barryvdh\DomPDF\ServiceProvider" not found in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:855
+Stack trace:
+#0 /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(789): Illuminate\Foundation\Application->resolveProvider('Barryvdh\\DomPDF...')
+#1 /home2/lizer/administracion.lizer.com.mx/bootstrap/app.php(44): Illuminate\Foundation\Application->register('Barryvdh\\DomPDF...')
+#2 /home2/lizer/administracion.lizer.com.mx/public/index.php(47): require_once('/home2/lizer/ad...')
+#3 {main}
+  thrown in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php on line 855
+[31-May-2025 16:39:20 America/Chicago] PHP Fatal error:  Uncaught Error: Class "Barryvdh\DomPDF\ServiceProvider" not found in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:855
+Stack trace:
+#0 /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(789): Illuminate\Foundation\Application->resolveProvider('Barryvdh\\DomPDF...')
+#1 /home2/lizer/administracion.lizer.com.mx/bootstrap/app.php(44): Illuminate\Foundation\Application->register('Barryvdh\\DomPDF...')
+#2 /home2/lizer/administracion.lizer.com.mx/public/index.php(47): require_once('/home2/lizer/ad...')
+#3 {main}
+  thrown in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php on line 855
+[31-May-2025 16:39:20 America/Chicago] PHP Fatal error:  Uncaught Error: Class "Barryvdh\DomPDF\ServiceProvider" not found in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:855
+Stack trace:
+#0 /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(789): Illuminate\Foundation\Application->resolveProvider('Barryvdh\\DomPDF...')
+#1 /home2/lizer/administracion.lizer.com.mx/bootstrap/app.php(44): Illuminate\Foundation\Application->register('Barryvdh\\DomPDF...')
+#2 /home2/lizer/administracion.lizer.com.mx/public/index.php(47): require_once('/home2/lizer/ad...')
+#3 {main}
+  thrown in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php on line 855
+[31-May-2025 16:39:20 America/Chicago] PHP Fatal error:  Uncaught Error: Class "Barryvdh\DomPDF\ServiceProvider" not found in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:855
+Stack trace:
+#0 /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(789): Illuminate\Foundation\Application->resolveProvider('Barryvdh\\DomPDF...')
+#1 /home2/lizer/administracion.lizer.com.mx/bootstrap/app.php(44): Illuminate\Foundation\Application->register('Barryvdh\\DomPDF...')
+#2 /home2/lizer/administracion.lizer.com.mx/public/index.php(47): require_once('/home2/lizer/ad...')
+#3 {main}
+  thrown in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php on line 855
+[31-May-2025 16:39:36 America/Chicago] PHP Fatal error:  Uncaught Error: Class "Barryvdh\DomPDF\ServiceProvider" not found in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:855
+Stack trace:
+#0 /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(789): Illuminate\Foundation\Application->resolveProvider('Barryvdh\\DomPDF...')
+#1 /home2/lizer/administracion.lizer.com.mx/bootstrap/app.php(44): Illuminate\Foundation\Application->register('Barryvdh\\DomPDF...')
+#2 /home2/lizer/administracion.lizer.com.mx/public/index.php(47): require_once('/home2/lizer/ad...')
+#3 {main}
+  thrown in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php on line 855
+[31-May-2025 16:39:36 America/Chicago] PHP Fatal error:  Uncaught Error: Class "Barryvdh\DomPDF\ServiceProvider" not found in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:855
+Stack trace:
+#0 /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(789): Illuminate\Foundation\Application->resolveProvider('Barryvdh\\DomPDF...')
+#1 /home2/lizer/administracion.lizer.com.mx/bootstrap/app.php(44): Illuminate\Foundation\Application->register('Barryvdh\\DomPDF...')
+#2 /home2/lizer/administracion.lizer.com.mx/public/index.php(47): require_once('/home2/lizer/ad...')
+#3 {main}
+  thrown in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php on line 855
+[31-May-2025 16:39:36 America/Chicago] PHP Fatal error:  Uncaught Error: Class "Barryvdh\DomPDF\ServiceProvider" not found in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:855
+Stack trace:
+#0 /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(789): Illuminate\Foundation\Application->resolveProvider('Barryvdh\\DomPDF...')
+#1 /home2/lizer/administracion.lizer.com.mx/bootstrap/app.php(44): Illuminate\Foundation\Application->register('Barryvdh\\DomPDF...')
+#2 /home2/lizer/administracion.lizer.com.mx/public/index.php(47): require_once('/home2/lizer/ad...')
+#3 {main}
+  thrown in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php on line 855
+[31-May-2025 16:39:37 America/Chicago] PHP Fatal error:  Uncaught Error: Class "Barryvdh\DomPDF\ServiceProvider" not found in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:855
+Stack trace:
+#0 /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(789): Illuminate\Foundation\Application->resolveProvider('Barryvdh\\DomPDF...')
+#1 /home2/lizer/administracion.lizer.com.mx/bootstrap/app.php(44): Illuminate\Foundation\Application->register('Barryvdh\\DomPDF...')
+#2 /home2/lizer/administracion.lizer.com.mx/public/index.php(47): require_once('/home2/lizer/ad...')
+#3 {main}
+  thrown in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php on line 855
+[31-May-2025 16:39:37 America/Chicago] PHP Fatal error:  Uncaught Error: Class "Barryvdh\DomPDF\ServiceProvider" not found in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:855
+Stack trace:
+#0 /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(789): Illuminate\Foundation\Application->resolveProvider('Barryvdh\\DomPDF...')
+#1 /home2/lizer/administracion.lizer.com.mx/bootstrap/app.php(44): Illuminate\Foundation\Application->register('Barryvdh\\DomPDF...')
+#2 /home2/lizer/administracion.lizer.com.mx/public/index.php(47): require_once('/home2/lizer/ad...')
+#3 {main}
+  thrown in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php on line 855
+[31-May-2025 16:39:37 America/Chicago] PHP Fatal error:  Uncaught Error: Class "Barryvdh\DomPDF\ServiceProvider" not found in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:855
+Stack trace:
+#0 /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(789): Illuminate\Foundation\Application->resolveProvider('Barryvdh\\DomPDF...')
+#1 /home2/lizer/administracion.lizer.com.mx/bootstrap/app.php(44): Illuminate\Foundation\Application->register('Barryvdh\\DomPDF...')
+#2 /home2/lizer/administracion.lizer.com.mx/public/index.php(47): require_once('/home2/lizer/ad...')
+#3 {main}
+  thrown in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php on line 855
+[31-May-2025 16:39:37 America/Chicago] PHP Fatal error:  Uncaught Error: Class "Barryvdh\DomPDF\ServiceProvider" not found in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:855
+Stack trace:
+#0 /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(789): Illuminate\Foundation\Application->resolveProvider('Barryvdh\\DomPDF...')
+#1 /home2/lizer/administracion.lizer.com.mx/bootstrap/app.php(44): Illuminate\Foundation\Application->register('Barryvdh\\DomPDF...')
+#2 /home2/lizer/administracion.lizer.com.mx/public/index.php(47): require_once('/home2/lizer/ad...')
+#3 {main}
+  thrown in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php on line 855
+[31-May-2025 16:39:37 America/Chicago] PHP Fatal error:  Uncaught Error: Class "Barryvdh\DomPDF\ServiceProvider" not found in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:855
+Stack trace:
+#0 /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(789): Illuminate\Foundation\Application->resolveProvider('Barryvdh\\DomPDF...')
+#1 /home2/lizer/administracion.lizer.com.mx/bootstrap/app.php(44): Illuminate\Foundation\Application->register('Barryvdh\\DomPDF...')
+#2 /home2/lizer/administracion.lizer.com.mx/public/index.php(47): require_once('/home2/lizer/ad...')
+#3 {main}
+  thrown in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php on line 855
+[31-May-2025 16:39:38 America/Chicago] PHP Fatal error:  Uncaught Error: Class "Barryvdh\DomPDF\ServiceProvider" not found in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:855
+Stack trace:
+#0 /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(789): Illuminate\Foundation\Application->resolveProvider('Barryvdh\\DomPDF...')
+#1 /home2/lizer/administracion.lizer.com.mx/bootstrap/app.php(44): Illuminate\Foundation\Application->register('Barryvdh\\DomPDF...')
+#2 /home2/lizer/administracion.lizer.com.mx/public/index.php(47): require_once('/home2/lizer/ad...')
+#3 {main}
+  thrown in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php on line 855
+[31-May-2025 16:39:38 America/Chicago] PHP Fatal error:  Uncaught Error: Class "Barryvdh\DomPDF\ServiceProvider" not found in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:855
+Stack trace:
+#0 /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(789): Illuminate\Foundation\Application->resolveProvider('Barryvdh\\DomPDF...')
+#1 /home2/lizer/administracion.lizer.com.mx/bootstrap/app.php(44): Illuminate\Foundation\Application->register('Barryvdh\\DomPDF...')
+#2 /home2/lizer/administracion.lizer.com.mx/public/index.php(47): require_once('/home2/lizer/ad...')
+#3 {main}
+  thrown in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php on line 855
+[31-May-2025 16:39:38 America/Chicago] PHP Fatal error:  Uncaught Error: Class "Barryvdh\DomPDF\ServiceProvider" not found in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:855
+Stack trace:
+#0 /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(789): Illuminate\Foundation\Application->resolveProvider('Barryvdh\\DomPDF...')
+#1 /home2/lizer/administracion.lizer.com.mx/bootstrap/app.php(44): Illuminate\Foundation\Application->register('Barryvdh\\DomPDF...')
+#2 /home2/lizer/administracion.lizer.com.mx/public/index.php(47): require_once('/home2/lizer/ad...')
+#3 {main}
+  thrown in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php on line 855
+[31-May-2025 16:39:38 America/Chicago] PHP Fatal error:  Uncaught Error: Class "Barryvdh\DomPDF\ServiceProvider" not found in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:855
+Stack trace:
+#0 /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(789): Illuminate\Foundation\Application->resolveProvider('Barryvdh\\DomPDF...')
+#1 /home2/lizer/administracion.lizer.com.mx/bootstrap/app.php(44): Illuminate\Foundation\Application->register('Barryvdh\\DomPDF...')
+#2 /home2/lizer/administracion.lizer.com.mx/public/index.php(47): require_once('/home2/lizer/ad...')
+#3 {main}
+  thrown in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php on line 855
+[31-May-2025 16:39:38 America/Chicago] PHP Fatal error:  Uncaught Error: Class "Barryvdh\DomPDF\ServiceProvider" not found in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:855
+Stack trace:
+#0 /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(789): Illuminate\Foundation\Application->resolveProvider('Barryvdh\\DomPDF...')
+#1 /home2/lizer/administracion.lizer.com.mx/bootstrap/app.php(44): Illuminate\Foundation\Application->register('Barryvdh\\DomPDF...')
+#2 /home2/lizer/administracion.lizer.com.mx/public/index.php(47): require_once('/home2/lizer/ad...')
+#3 {main}
+  thrown in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php on line 855
+[31-May-2025 16:41:39 America/Chicago] PHP Fatal error:  Uncaught Error: Class "Barryvdh\DomPDF\ServiceProvider" not found in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:855
+Stack trace:
+#0 /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(789): Illuminate\Foundation\Application->resolveProvider('Barryvdh\\DomPDF...')
+#1 /home2/lizer/administracion.lizer.com.mx/bootstrap/app.php(44): Illuminate\Foundation\Application->register('Barryvdh\\DomPDF...')
+#2 /home2/lizer/administracion.lizer.com.mx/public/index.php(47): require_once('/home2/lizer/ad...')
+#3 {main}
+  thrown in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php on line 855
+[31-May-2025 16:41:39 America/Chicago] PHP Fatal error:  Uncaught Error: Class "Barryvdh\DomPDF\ServiceProvider" not found in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:855
+Stack trace:
+#0 /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(789): Illuminate\Foundation\Application->resolveProvider('Barryvdh\\DomPDF...')
+#1 /home2/lizer/administracion.lizer.com.mx/bootstrap/app.php(44): Illuminate\Foundation\Application->register('Barryvdh\\DomPDF...')
+#2 /home2/lizer/administracion.lizer.com.mx/public/index.php(47): require_once('/home2/lizer/ad...')
+#3 {main}
+  thrown in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php on line 855
+[31-May-2025 16:41:40 America/Chicago] PHP Fatal error:  Uncaught Error: Class "Barryvdh\DomPDF\ServiceProvider" not found in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:855
+Stack trace:
+#0 /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(789): Illuminate\Foundation\Application->resolveProvider('Barryvdh\\DomPDF...')
+#1 /home2/lizer/administracion.lizer.com.mx/bootstrap/app.php(44): Illuminate\Foundation\Application->register('Barryvdh\\DomPDF...')
+#2 /home2/lizer/administracion.lizer.com.mx/public/index.php(47): require_once('/home2/lizer/ad...')
+#3 {main}
+  thrown in /home2/lizer/administracion.lizer.com.mx/vendor/laravel/framework/src/Illuminate/Foundation/Application.php on line 855
+[26-Jan-2026 16:08:33 America/Mazatlan] PHP Fatal error:  Cannot use temporary expression in write context in /home2/lizer/administracion.lizer.com.mx/app/Http/Controllers/UserController.php on line 112
+[26-Jan-2026 16:08:35 America/Mazatlan] PHP Fatal error:  Cannot use temporary expression in write context in /home2/lizer/administracion.lizer.com.mx/app/Http/Controllers/UserController.php on line 112
+[26-Jan-2026 16:08:36 America/Mazatlan] PHP Fatal error:  Cannot use temporary expression in write context in /home2/lizer/administracion.lizer.com.mx/app/Http/Controllers/UserController.php on line 112
+[26-Jan-2026 16:08:36 America/Mazatlan] PHP Fatal error:  Cannot use temporary expression in write context in /home2/lizer/administracion.lizer.com.mx/app/Http/Controllers/UserController.php on line 112
+[26-Jan-2026 16:08:37 America/Mazatlan] PHP Fatal error:  Cannot use temporary expression in write context in /home2/lizer/administracion.lizer.com.mx/app/Http/Controllers/UserController.php on line 112
+[26-Jan-2026 16:08:38 America/Mazatlan] PHP Fatal error:  Cannot use temporary expression in write context in /home2/lizer/administracion.lizer.com.mx/app/Http/Controllers/UserController.php on line 112
+[26-Jan-2026 16:09:44 America/Mazatlan] PHP Fatal error:  Cannot use temporary expression in write context in /home2/lizer/administracion.lizer.com.mx/app/Http/Controllers/UserController.php on line 112
+[26-Jan-2026 16:09:46 America/Mazatlan] PHP Fatal error:  Cannot use temporary expression in write context in /home2/lizer/administracion.lizer.com.mx/app/Http/Controllers/UserController.php on line 112
+[26-Jan-2026 16:09:47 America/Mazatlan] PHP Fatal error:  Cannot use temporary expression in write context in /home2/lizer/administracion.lizer.com.mx/app/Http/Controllers/UserController.php on line 112
+[26-Jan-2026 16:09:47 America/Mazatlan] PHP Fatal error:  Cannot use temporary expression in write context in /home2/lizer/administracion.lizer.com.mx/app/Http/Controllers/UserController.php on line 112
+[26-Jan-2026 16:09:48 America/Mazatlan] PHP Fatal error:  Cannot use temporary expression in write context in /home2/lizer/administracion.lizer.com.mx/app/Http/Controllers/UserController.php on line 112
+[26-Jan-2026 16:10:46 America/Mazatlan] PHP Fatal error:  Cannot use temporary expression in write context in /home2/lizer/administracion.lizer.com.mx/app/Http/Controllers/UserController.php on line 112
+[26-Jan-2026 16:11:09 America/Mazatlan] PHP Fatal error:  Assignments can only happen to writable values in /home2/lizer/administracion.lizer.com.mx/app/Http/Controllers/UserController.php on line 112
+[26-Jan-2026 16:11:10 America/Mazatlan] PHP Fatal error:  Assignments can only happen to writable values in /home2/lizer/administracion.lizer.com.mx/app/Http/Controllers/UserController.php on line 112
