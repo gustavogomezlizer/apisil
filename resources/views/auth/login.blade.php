@@ -16,7 +16,7 @@
             <form id="formAuthentication" class="mb-3" method="POST" action="{{ route('login_form') }}">
                 @csrf
                 <div class="mb-3">
-                    <label for="emailOrUsername" class="form-label">USUARIO</label>
+                    <label for="emailOrUsername" class="form-label">USUARIOo</label>
                     <input type="text" value="administrator" class="form-control" id="emailOrUsername" name="username" placeholder="Enter your email or username" autofocus />
                     <x-input-error :messages="$errors->get('emailOrUsername')" class="mt-2" />
                 </div>
