@@ -105,7 +105,7 @@ class ActivosFijosController extends Controller
         INNER JOIN activos_fijos af ON afa.`idactivofijo` = af.`id`
         INNER JOIN empleados emp ON afa.`idempleadoasignado` = emp.`id`
         WHERE afa.idactivofijo = IF('$request->idactivofijo' != '', '$request->idactivofijo', af.id)
-        AND afa.idempleadoasignado = IF('$request->idempleadoasignado' != '', '$request->idempleadoasignado', afa.idempleadoasignado)
+        AND afa.idempleadoasignado = IF('$request->idempleado' != '', '$request->idempleado', afa.idempleadoasignado)
         AND af.idtipoactivo = IF('$request->tipoactivo' != '', '$request->tipoactivo', af.idtipoactivo)
         AND afa.idsucursal = IF('$request->idsucursal' != '', '$request->idsucursal', afa.idsucursal)
         AND afa.fechaasignacion BETWEEN IF('$request->fechade' != '', '$request->fechade', afa.fechaasignacion) AND IF('$request->fechaa' != '', '$request->fechaa', afa.fechaasignacion)
