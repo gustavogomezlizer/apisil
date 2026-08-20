@@ -50,7 +50,7 @@ return new class extends Migration
 
         // tickets_combustibles
         ['table' => 'tickets_combustibles', 'columns' => ['idvehiculo']],
-        ['table' => 'tickets_combustibles', 'columns' => ['fecha']],
+        ['table' => 'tickets_combustibles', 'columns' => ['fechacarga']],
 
         // personal_access_tokens — acelera lookup del token
         ['table' => 'personal_access_tokens', 'columns' => ['tokenable_type', 'tokenable_id']],

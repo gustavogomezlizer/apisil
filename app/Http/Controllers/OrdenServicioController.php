@@ -136,9 +136,10 @@ class OrdenServicioController extends Controller
 
         // Guardar detalle
         if ($request->detalles) {
-            foreach ($request->detalles as $mov) {
+            foreach ($request->detalles as $index => $mov) {
                 DB::table('ordenes_servicio_detalle')->insert([
                     'idorden' => $id,
+                    'numeromovimiento' => $mov['numeromovimiento'] ?? ($index + 1),
                     'idservicio' => $mov['idservicio'] ?? null,
                     'importe' => floatval($mov['importe'] ?? 0),
                     'observaciones' => $mov['observaciones'] ?? null,

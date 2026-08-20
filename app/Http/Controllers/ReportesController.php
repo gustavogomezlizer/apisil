@@ -292,7 +292,7 @@ class ReportesController extends Controller
                 'os.totalimporte as importe',
                 'd.observaciones',
                 's.nombre as servicio',
-                DB::raw('ROW_NUMBER() OVER (PARTITION BY os.id ORDER BY d.id) as numeromovimiento'),
+                'd.numeromovimiento',
                 't.razonsocial as proveedorservicio',
                 'afu.numeroeconomico',
                 DB::raw('IFNULL(suc.nombre, os.sucursal) as sucursal')
