@@ -70,7 +70,7 @@
             <table border="0" width="100%">
                 <tr>
                     <td><b>Unidad:</b></td>
-                    <td>{{ $orden->unidad ?? '-' }}</td>
+                    <td>{{ $orden->numeroeconomico ?? '-' }} - {{ $orden->unidad ?? '-' }}</td>
                 </tr>
                 <tr>
                     <td><b>Marca:</b></td>
@@ -80,13 +80,20 @@
                     <td><b>Serie:</b></td>
                     <td>{{ $orden->unidad_serie ?? '-' }}</td>
                 </tr>
+            </table>
+        </div>
+
+        <br/>
+        <div align="center" style="border: 0.1px solid black;background:#dedede;">Datos Solicitante</div>
+        <div style="border: 0.1px solid black;">
+            <table border="0" width="100%">
                 <tr>
-                    <td><b>Descripción:</b></td>
-                    <td>{{ $orden->descripcionunidad ?? '-' }}</td>
+                    <td><b>Solicita:</b></td>
+                    <td>{{ $orden->usuario ?? '-' }}</td>
                 </tr>
                 <tr>
-                    <td><b>Kilometraje:</b></td>
-                    <td>{{ $orden->kilometrajeunidad ?? '-' }}</td>
+                    <td><b>Sucursal:</b></td>
+                    <td>{{ $orden->sucursal ?? '-' }}</td>
                 </tr>
             </table>
         </div>

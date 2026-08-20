@@ -13,10 +13,12 @@ class OrdenServicioController extends Controller
         $query = DB::table('ordenes_servicio as os')
             ->leftJoin('talleres as t', 'os.idtaller', '=', 't.id')
             ->leftJoin('activos_fijos as af', 'os.idunidad', '=', 'af.id')
+            ->leftJoin('activos_fijos_unidades as afu', 'af.id', '=', 'afu.idactivofijo')
             ->select(
                 'os.*',
                 't.razonsocial as taller',
                 'af.descripcion as unidad',
+                'afu.numeroeconomico',
                 'os.autorizacion_estatus as autorizacionEstatus',
                 'os.autorizacion_comentario as autorizacionComentario'
             );
@@ -179,6 +181,7 @@ class OrdenServicioController extends Controller
         $orden = DB::table('ordenes_servicio as os')
             ->leftJoin('talleres as t', 'os.idtaller', '=', 't.id')
             ->leftJoin('activos_fijos as af', 'os.idunidad', '=', 'af.id')
+            ->leftJoin('activos_fijos_unidades as afu', 'af.id', '=', 'afu.idactivofijo')
             ->select(
                 'os.*',
                 't.razonsocial as taller',
@@ -187,7 +190,8 @@ class OrdenServicioController extends Controller
                 't.telefono as taller_telefono',
                 'af.descripcion as unidad',
                 'af.marca as unidad_marca',
-                'af.serie as unidad_serie'
+                'af.serie as unidad_serie',
+                'afu.numeroeconomico'
             )
             ->where('os.id', $id)
             ->first();
