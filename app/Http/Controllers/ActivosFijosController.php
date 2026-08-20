@@ -45,6 +45,10 @@ class ActivosFijosController extends Controller
             $q->where('cat.estatus', $request->estatus)
         );
 
+        $query->when($request->numeroeconomico, fn($q) =>
+            $q->where('afu.numeroeconomico', $request->numeroeconomico)
+        );
+
 
         // SEARCH
         $query->when($request->search, function ($q) use ($request) {

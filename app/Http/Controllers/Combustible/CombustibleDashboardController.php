@@ -25,32 +25,35 @@ class CombustibleDashboardController extends Controller
 
     protected function getKpis(string $mes, string $anio): array
     {
-        $base = DB::table('tickets_combustibles')
-            ->whereYear('fechacarga', $anio)
-            ->whereMonth('fechacarga', $mes)
-            ->whereIn('idvehiculo', ACTIVO_FIJO_TIPO_UNIDAD_IDS());
+        $base = DB::table('tickets_combustibles as c')
+            ->join('activos_fijos as af', 'c.idvehiculo', '=', 'af.id')
+            ->whereYear('c.fechacarga', $anio)
+            ->whereMonth('c.fechacarga', $mes)
+            ->whereIn('af.idtipoactivo', ACTIVO_FIJO_TIPO_UNIDAD_IDS());
 
-        $totalLitros  = $base->sum('litros') ?? 0;
-        $totalImporte = $base->sum('importe') ?? 0;
+        $totalLitros  = $base->sum('c.litros') ?? 0;
+        $totalImporte = $base->sum('c.importe') ?? 0;
         $totalCargas  = $base->count();
-        $totalUnidades= $base->distinct()->count('idvehiculo');
+        $totalUnidades= $base->distinct()->count('c.idvehiculo');
 
         // Rendimiento promedio (km/litro)
-        $rendimiento = DB::table('tickets_combustibles')
-            ->whereYear('fechacarga', $anio)
-            ->whereMonth('fechacarga', $mes)
-            ->where('litros', '>', 0)
-            ->whereIn('idvehiculo', ACTIVO_FIJO_TIPO_UNIDAD_IDS())
-            ->avg('rendimiento') ?? 0;
+        $rendimiento = DB::table('tickets_combustibles as c')
+            ->join('activos_fijos as af', 'c.idvehiculo', '=', 'af.id')
+            ->whereYear('c.fechacarga', $anio)
+            ->whereMonth('c.fechacarga', $mes)
+            ->where('c.litros', '>', 0)
+            ->whereIn('af.idtipoactivo', ACTIVO_FIJO_TIPO_UNIDAD_IDS())
+            ->avg('c.rendimiento') ?? 0;
 
         // Mes anterior para comparativo
         $mesAnterior = $mes == 1 ? 12 : $mes - 1;
         $anioAnterior = $mes == 1 ? $anio - 1 : $anio;
-        $importeAnterior = DB::table('tickets_combustibles')
-            ->whereYear('fechacarga', $anioAnterior)
-            ->whereMonth('fechacarga', $mesAnterior)
-            ->whereIn('idvehiculo', ACTIVO_FIJO_TIPO_UNIDAD_IDS())
-            ->sum('importe') ?? 0;
+        $importeAnterior = DB::table('tickets_combustibles as c')
+            ->join('activos_fijos as af', 'c.idvehiculo', '=', 'af.id')
+            ->whereYear('c.fechacarga', $anioAnterior)
+            ->whereMonth('c.fechacarga', $mesAnterior)
+            ->whereIn('af.idtipoactivo', ACTIVO_FIJO_TIPO_UNIDAD_IDS())
+            ->sum('c.importe') ?? 0;
 
         $variacion = $importeAnterior > 0
             ? round((($totalImporte - $importeAnterior) / $importeAnterior) * 100, 1)
@@ -95,11 +98,12 @@ class CombustibleDashboardController extends Controller
     {
         $meses = [];
         for ($m = 1; $m <= 12; $m++) {
-            $row = DB::table('tickets_combustibles')
-                ->whereYear('fechacarga', $anio)
-                ->whereMonth('fechacarga', $m)
-                ->whereIn('idvehiculo', ACTIVO_FIJO_TIPO_UNIDAD_IDS())
-                ->selectRaw('SUM(litros) as litros, SUM(importe) as importe, COUNT(id) as cargas')
+            $row = DB::table('tickets_combustibles as c')
+                ->join('activos_fijos as af', 'c.idvehiculo', '=', 'af.id')
+                ->whereYear('c.fechacarga', $anio)
+                ->whereMonth('c.fechacarga', $m)
+                ->whereIn('af.idtipoactivo', ACTIVO_FIJO_TIPO_UNIDAD_IDS())
+                ->selectRaw('SUM(c.litros) as litros, SUM(c.importe) as importe, COUNT(c.id) as cargas')
                 ->first();
 
             $meses[] = [
@@ -115,9 +119,10 @@ class CombustibleDashboardController extends Controller
 
     protected function getResumenAlertas(): array
     {
-        $row = DB::table('comb_alertas')
-            ->where('leida', 0)
-            ->whereIn('idactivofijo', ACTIVO_FIJO_TIPO_UNIDAD_IDS())
+        $row = DB::table('comb_alertas as ca')
+            ->join('activos_fijos as af', 'ca.idactivofijo', '=', 'af.id')
+            ->where('ca.leida', 0)
+            ->whereIn('af.idtipoactivo', ACTIVO_FIJO_TIPO_UNIDAD_IDS())
             ->selectRaw('COUNT(*) as total,
                 SUM(CASE WHEN nivel="critica"     THEN 1 ELSE 0 END) as criticas,
                 SUM(CASE WHEN nivel="advertencia" THEN 1 ELSE 0 END) as advertencias,
@@ -144,13 +149,14 @@ class CombustibleDashboardController extends Controller
 
         $resultado = [];
         foreach ($presupuestos as $p) {
-            $gastado = DB::table('tickets_combustibles')
-                ->whereYear('fechacarga', $anio)
-                ->whereMonth('fechacarga', $mes)
-                ->whereIn('idvehiculo', ACTIVO_FIJO_TIPO_UNIDAD_IDS())
-                ->when($p->idactivofijo, fn($q) => $q->where('idvehiculo', $p->idactivofijo))
-                ->when($p->idsucursal,   fn($q) => $q->where('idsucursal', $p->idsucursal))
-                ->sum('importe') ?? 0;
+            $gastado = DB::table('tickets_combustibles as c')
+                ->join('activos_fijos as af', 'c.idvehiculo', '=', 'af.id')
+                ->whereYear('c.fechacarga', $anio)
+                ->whereMonth('c.fechacarga', $mes)
+                ->whereIn('af.idtipoactivo', ACTIVO_FIJO_TIPO_UNIDAD_IDS())
+                ->when($p->idactivofijo, fn($q) => $q->where('c.idvehiculo', $p->idactivofijo))
+                ->when($p->idsucursal,   fn($q) => $q->where('c.idsucursal', $p->idsucursal))
+                ->sum('c.importe') ?? 0;
 
             $pct = $p->presupuesto_importe > 0
                 ? round(($gastado / $p->presupuesto_importe) * 100, 1)

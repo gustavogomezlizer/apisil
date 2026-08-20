@@ -289,7 +289,7 @@ class ReportesController extends Controller
                 'os.descripcionunidad',
                 'os.kilometrajeunidad',
                 'os.estatusorden as estadoordenservicio',
-                'os.totalimporte as importe',
+                'd.importe',
                 'd.observaciones',
                 's.nombre as servicio',
                 'd.numeromovimiento',

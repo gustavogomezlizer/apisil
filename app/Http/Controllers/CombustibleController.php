@@ -158,6 +158,7 @@ class CombustibleController extends Controller
         };
 
         $query = DB::table('tickets_combustibles as c')
+            ->leftJoin('activos_fijos as af', 'c.idvehiculo', '=', 'af.id')
             ->select(
                 'c.idvehiculo',
                 'c.numerounidad',
@@ -170,7 +171,7 @@ class CombustibleController extends Controller
             ->groupBy('c.idvehiculo', 'c.numerounidad', 'periodo')
             ->orderBy('periodo', 'desc')
             ->orderBy('c.numerounidad', 'asc')
-            ->whereIn('c.idvehiculo', ACTIVO_FIJO_TIPO_UNIDAD_IDS());
+            ->whereIn('af.idtipoactivo', ACTIVO_FIJO_TIPO_UNIDAD_IDS());
 
         // Filtros de la vista: cada uno se omite si viene vacío.
         $query->when($request->filled('numeroeconomico'), fn($q) => $q->where('c.numerounidad', 'like', '%' . $request->numeroeconomico . '%'));
@@ -200,21 +201,23 @@ class CombustibleController extends Controller
 
         // Combustible por unidad y periodo
         $combustible = DB::table('tickets_combustibles as c')
+            ->leftJoin('activos_fijos as af', 'c.idvehiculo', '=', 'af.id')
             ->select('c.idvehiculo', 'c.numerounidad')
             ->addSelect(DB::raw("$periodoExpr as periodo"))
             ->addSelect(DB::raw('SUM(c.importe) as costo_combustible'))
             ->addSelect(DB::raw('SUM(c.consumo) as kilometros'))
             ->groupBy('c.idvehiculo', 'c.numerounidad', 'periodo')
-            ->whereIn('c.idvehiculo', ACTIVO_FIJO_TIPO_UNIDAD_IDS());
+            ->whereIn('af.idtipoactivo', ACTIVO_FIJO_TIPO_UNIDAD_IDS());
 
         // Mantenimiento por unidad y periodo (ordenes_servicio)
         $mantenimientoExpr = str_replace('fechacarga', 'o.fechaingreso', $periodoExpr);
         $mantenimiento = DB::table('ordenes_servicio as o')
+            ->leftJoin('activos_fijos as af2', 'o.idunidad', '=', 'af2.id')
             ->select('o.idunidad as idvehiculo')
             ->addSelect(DB::raw("$mantenimientoExpr as periodo"))
             ->addSelect(DB::raw('SUM(o.totalimporte) as costo_mantenimiento'))
             ->groupBy('o.idunidad', 'periodo')
-            ->whereIn('o.idunidad', ACTIVO_FIJO_TIPO_UNIDAD_IDS());
+            ->whereIn('af2.idtipoactivo', ACTIVO_FIJO_TIPO_UNIDAD_IDS());
 
         // Filtros de la vista: cada uno se omite si viene vacío.
         $combustible->when($request->filled('numeroeconomico'), fn($q) => $q->where('c.numerounidad', 'like', '%' . $request->numeroeconomico . '%'));

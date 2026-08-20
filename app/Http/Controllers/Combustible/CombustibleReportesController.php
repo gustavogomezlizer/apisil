@@ -81,6 +81,7 @@ class CombustibleReportesController extends Controller
     {
         $query = DB::table('tickets_combustibles as c')
             ->join('sucursales as s', 'c.idsucursal', '=', 's.id')
+            ->join('activos_fijos as af', 'c.idvehiculo', '=', 'af.id')
             ->select(
                 's.id as idsucursal',
                 's.nombre as sucursal',
@@ -92,7 +93,7 @@ class CombustibleReportesController extends Controller
             )
             ->groupBy('s.id', 's.nombre')
             ->orderByDesc('total_importe')
-            ->whereIn('c.idvehiculo', ACTIVO_FIJO_TIPO_UNIDAD_IDS());
+            ->whereIn('af.idtipoactivo', ACTIVO_FIJO_TIPO_UNIDAD_IDS());
 
         $this->aplicarFiltrosComunes($query, $request);
         return response()->json($query->get());

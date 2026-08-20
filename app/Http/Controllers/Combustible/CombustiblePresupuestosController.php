@@ -23,7 +23,7 @@ class CombustiblePresupuestosController extends Controller
             ->where('p.activo', 1)
             ->where(function ($q) {
                 $q->whereNull('p.idactivofijo')
-                  ->orWhereIn('p.idactivofijo', ACTIVO_FIJO_TIPO_UNIDAD_IDS());
+                  ->orWhereIn('af.idtipoactivo', ACTIVO_FIJO_TIPO_UNIDAD_IDS());
             });
 
         $query->when($request->tipo,         fn($q) => $q->where('p.tipo', $request->tipo));
@@ -38,13 +38,14 @@ class CombustiblePresupuestosController extends Controller
         // Calcular ejecución para cada presupuesto
         $result = $query->paginate($request->per_page ?? 20);
         $result->getCollection()->transform(function ($p) {
-            $gastado = DB::table('tickets_combustibles')
-                ->whereYear('fechacarga', $p->periodo_anio)
-                ->whereIn('idvehiculo', ACTIVO_FIJO_TIPO_UNIDAD_IDS())
-                ->when($p->periodo_mes, fn($q) => $q->whereMonth('fechacarga', $p->periodo_mes))
-                ->when($p->idactivofijo, fn($q) => $q->where('idvehiculo', $p->idactivofijo))
-                ->when($p->idsucursal,   fn($q) => $q->where('idsucursal', $p->idsucursal))
-                ->sum('importe') ?? 0;
+            $gastado = DB::table('tickets_combustibles as c')
+                ->join('activos_fijos as af', 'c.idvehiculo', '=', 'af.id')
+                ->whereYear('c.fechacarga', $p->periodo_anio)
+                ->whereIn('af.idtipoactivo', ACTIVO_FIJO_TIPO_UNIDAD_IDS())
+                ->when($p->periodo_mes, fn($q) => $q->whereMonth('c.fechacarga', $p->periodo_mes))
+                ->when($p->idactivofijo, fn($q) => $q->where('c.idvehiculo', $p->idactivofijo))
+                ->when($p->idsucursal,   fn($q) => $q->where('c.idsucursal', $p->idsucursal))
+                ->sum('c.importe') ?? 0;
 
             $p->gastado      = round($gastado, 2);
             $p->pct_ejecutado = $p->presupuesto_importe > 0

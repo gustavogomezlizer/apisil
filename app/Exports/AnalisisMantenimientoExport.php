@@ -35,9 +35,9 @@ class AnalisisMantenimientoExport implements FromCollection, WithHeadings
                 'os.kilometrajeunidad as kilometrounidad',
                 't.razonsocial as proveedorservicio',
                 'os.estatusorden as estadoordenservicio',
-                DB::raw('ROW_NUMBER() OVER (PARTITION BY os.id ORDER BY d.id) as numeromovimiento'),
+                'd.numeromovimiento',
                 's.nombre as servicio',
-                'os.totalimporte as importe',
+                'd.importe',
                 'd.observaciones'
             );
 
