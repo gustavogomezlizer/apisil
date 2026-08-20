@@ -64,9 +64,7 @@ class ActivosFijosController extends Controller
             ->orderBy('cat.clave');
 
 
-        $rows = $query->get();
-
-        return $rows;
+        return $query->paginate($request->per_page ?? 10);
     }
 
     public function getActivoFijo($id)
@@ -92,26 +90,37 @@ class ActivosFijosController extends Controller
 
     public function getAsignacionesActivosFijos(Request $request)
     {
-        $rows = DB::select("SELECT 
-        afa.`id`,
-        af.descripcion AS activo,
-        fnGetDatoNombreCatalogoById('cat_tipos_activos_fijos', af.`idtipoactivo`) AS tipoactivo,
-        emp.`nombrecompleto` AS responsable,
-        fnGetDatoNombreCatalogoById('sucursales', afa.`idsucursal`) AS sucursal,
-        fnGetDatoNombreCatalogoById('cat_departamentos', afa.`iddepartamento`) AS departamento,
-        afa.`fechaasignacion`,
-        afa.`estadoasignacion`
-        FROM activos_fijos_asignacion afa
-        INNER JOIN activos_fijos af ON afa.`idactivofijo` = af.`id`
-        INNER JOIN empleados emp ON afa.`idempleadoasignado` = emp.`id`
-        WHERE afa.idactivofijo = IF('$request->idactivofijo' != '', '$request->idactivofijo', af.id)
-        AND afa.idempleadoasignado = IF('$request->idempleado' != '', '$request->idempleado', afa.idempleadoasignado)
-        AND af.idtipoactivo = IF('$request->tipoactivo' != '', '$request->tipoactivo', af.idtipoactivo)
-        AND afa.idsucursal = IF('$request->idsucursal' != '', '$request->idsucursal', afa.idsucursal)
-        AND afa.fechaasignacion BETWEEN IF('$request->fechade' != '', '$request->fechade', afa.fechaasignacion) AND IF('$request->fechaa' != '', '$request->fechaa', afa.fechaasignacion)
-        ORDER BY afa.`fechaasignacion` DESC;");
+        $query = DB::table('activos_fijos_asignacion as afa')
+            ->join('activos_fijos as af', 'afa.idactivofijo', '=', 'af.id')
+            ->join('empleados as emp', 'afa.idempleadoasignado', '=', 'emp.id')
+            ->leftJoin('cat_tipos_activos_fijos as ctaf', 'af.idtipoactivo', '=', 'ctaf.id')
+            ->leftJoin('sucursales as suc', 'afa.idsucursal', '=', 'suc.id')
+            ->leftJoin('cat_departamentos as dep', 'afa.iddepartamento', '=', 'dep.id')
+            ->select([
+                'afa.id',
+                'af.descripcion as activo',
+                'ctaf.nombre as tipoactivo',
+                'emp.nombrecompleto as responsable',
+                'suc.nombre as sucursal',
+                'dep.nombre as departamento',
+                'afa.fechaasignacion',
+                'afa.estadoasignacion',
+                'afa.tipoactivo as tipoasignacion',
+            ]);
 
-        return $rows;
+        $query->when($request->idactivofijo,    fn($q) => $q->where('afa.idactivofijo', $request->idactivofijo));
+        $query->when($request->idempleado,       fn($q) => $q->where('afa.idempleadoasignado', $request->idempleado));
+        $query->when($request->tipoactivo,       fn($q) => $q->where('af.idtipoactivo', $request->tipoactivo));
+        $query->when($request->idsucursal,       fn($q) => $q->where('afa.idsucursal', $request->idsucursal));
+        $query->when($request->estadoasignacion, fn($q) => $q->where('afa.estadoasignacion', $request->estadoasignacion));
+
+        if ($request->filled('fechade') && $request->filled('fechaa')) {
+            $query->whereBetween('afa.fechaasignacion', [$request->fechade, $request->fechaa]);
+        }
+
+        $query->orderBy('afa.fechaasignacion', 'desc');
+
+        return $query->paginate($request->per_page ?? 10);
     }
 
     public function getAsignacionActivoFijo($id)

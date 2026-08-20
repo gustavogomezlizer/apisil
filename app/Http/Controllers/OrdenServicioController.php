@@ -129,7 +129,7 @@ class OrdenServicioController extends Controller
             // Generar número de orden
             $consecutivo = DB::table('ordenes_servicio')->count() + 1;
             $data['ordenservicio'] = 'OS-' . str_pad($consecutivo, 5, '0', STR_PAD_LEFT);
-            $data['idusuario'] = $request->header('x-user-id');
+            $data['idusuario'] = auth()->id();
             $data['created_at'] = now();
             $id = DB::table('ordenes_servicio')->insertGetId($data);
         }

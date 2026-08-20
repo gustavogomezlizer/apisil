@@ -72,7 +72,7 @@ class CombustibleController extends Controller
 
         $request->validate($rules);
 
-        if (!ACTIVO_FIJO_ES_TIPO_UNIDAD($request->vehicleId)) {
+        if (!ACTIVO_FIJO_ES_UNIDAD_POR_ID($request->vehicleId)) {
             return response()->json(['message' => 'Solo se permiten activos de tipo Unidad en el módulo de combustible.'], 422);
         }
 
@@ -347,11 +347,12 @@ class CombustibleController extends Controller
     {
         $row = DB::table('tickets_combustibles as c')
             ->leftJoin('activos_fijos as af', 'c.idvehiculo', '=', 'af.id')
+            ->leftJoin('activos_fijos_unidades as afu', 'c.idvehiculo', '=', 'afu.idactivofijo')
             ->leftJoin('talleres as t', 'c.idproveedor', '=', 't.id')
             ->select(
                 'c.*',
                 'af.descripcion as descripcionunidad',
-                'af.numeroeconomico',
+                'afu.numeroeconomico',
                 'af.marca',
                 'af.serie',
                 't.razonsocial as proveedor',
@@ -371,7 +372,7 @@ class CombustibleController extends Controller
 
     public function guardarCapturaTicket(Request $request, $id = null)
     {
-        if (!$request->filled('idunidad') || !ACTIVO_FIJO_ES_TIPO_UNIDAD($request->idunidad)) {
+        if (!$request->filled('idunidad') || !ACTIVO_FIJO_ES_UNIDAD_POR_ID($request->idunidad)) {
             return response()->json(['message' => 'Solo se permiten activos de tipo Unidad en el módulo de combustible.'], 422);
         }
 
@@ -401,7 +402,7 @@ class CombustibleController extends Controller
             'observaciones' => $request->observaciones ?? null,
             'combustibleasignado' => floatval($request->combustibleasignado ?? 0),
             'estatus' => 'Capturado',
-            'idusuario' => $request->header('x-user-id'),
+            'idusuario' => auth()->id(),
             'updated_at' => now(),
         ];
 
@@ -413,7 +414,7 @@ class CombustibleController extends Controller
         $consecutivo = DB::table('tickets_combustibles')->count() + 1;
         $data['foliointerno'] = 'COMB-' . str_pad($consecutivo, 6, '0', STR_PAD_LEFT);
         $data['created_at'] = now();
-        $data['idusuario'] = $request->header('x-user-id');
+        $data['idusuario'] = auth()->id();
         $newId = DB::table('tickets_combustibles')->insertGetId($data);
 
         return response()->json([

@@ -75,7 +75,7 @@ class CombustiblePresupuestosController extends Controller
             'presupuesto_importe' => 'required|numeric|min:0',
         ]);
 
-        if ($request->tipo === 'unidad' && !ACTIVO_FIJO_ES_TIPO_UNIDAD($request->idactivofijo)) {
+        if ($request->tipo === 'unidad' && !ACTIVO_FIJO_ES_UNIDAD_POR_ID($request->idactivofijo)) {
             return response()->json(['message' => 'Solo se permiten activos de tipo Unidad en el módulo de combustible.'], 422);
         }
 

@@ -66,9 +66,7 @@ class RecursosHumanosController extends Controller
         // ORDEN
         $query->orderBy('cat.numeroempleado');
 
-        $datos = $query->get();
-
-        return $datos;
+        return $query->paginate($request->per_page ?? 15);
     }
 
     public function getArchivosEmpleado()
@@ -194,7 +192,7 @@ class RecursosHumanosController extends Controller
                 ->update([
                     ...$validated,
                     'updated_at' => now(),
-                    'idusuario' => $request->header('x-user-id')
+                    'idusuario' => auth()->id()
                 ]);
 
             return response()->json([

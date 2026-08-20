@@ -90,7 +90,7 @@ class CombustibleAlertasController extends Controller
         $ticket = DB::table('tickets_combustibles')->where('id', $idTicket)->first();
         if (!$ticket) return response()->json(['message' => 'Ticket no encontrado'], 404);
 
-        if (!ACTIVO_FIJO_ES_TIPO_UNIDAD($ticket->idvehiculo)) {
+        if (!ACTIVO_FIJO_ES_UNIDAD_POR_ID($ticket->idvehiculo)) {
             return response()->json(['message' => 'El ticket no corresponde a una unidad de tipo Unidad.'], 422);
         }
 

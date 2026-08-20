@@ -57,11 +57,32 @@ Route::middleware('auth:sanctum')->group(function () {
     });
 });
 
-Route::middleware('api')->group(function () {
+// Login — public, strictly rate-limited
+Route::middleware('api')->post('/login_vue', function (Request $request, MenuService $menuService) {
+    $credentials = $request->validate([
+        'username' => 'required|string|max:100',
+        'password' => 'required|string',
+    ]);
+
+    if (!Auth::attempt($credentials)) {
+        return response()->json(['message' => 'Credenciales incorrectas'], 401);
+    }
+
+    $user = Auth::user();
+    $token = $user->createToken('auth_token')->plainTextToken;
+
+    $user["menu"] = $menuService->buildMenuForUser(auth()->id());
+    $user["permissions"] = $menuService->getPermissionsForUser(auth()->id());
+    $user["role"] = $user->role;
+
+    return response()->json(['token' => $token, 'user' => $user]);
+})->middleware('throttle:login');
+
+Route::middleware(['api', 'auth:sanctum'])->group(function () {
 
     // ─── USUARIOS / SISTEMAS ─────────────────────────────────────────────────
     Route::get('/sistemas/users', [UserController::class, 'getUsuarios']);
-    Route::get('/sistemas/users/me/obtener-usuarios-sucursal-combustible', [UserController::class, 'getCurrentUserSucursalCombustible'])->middleware('auth:sanctum');
+    Route::get('/sistemas/users/me/obtener-usuarios-sucursal-combustible', [UserController::class, 'getCurrentUserSucursalCombustible']);
     Route::get('/sistemas/users/{id}', [UserController::class, 'getUsuario']);
     Route::post('/sistemas/users', [UserController::class, 'guardarUsuario']);
     Route::put('/sistemas/users/{id}', [UserController::class, 'guardarUsuario']);
@@ -81,34 +102,14 @@ Route::middleware('api')->group(function () {
     });
 
     // ─── CONFIGURACIÓN DEL SISTEMA ────────────────────────────────────────────
-    Route::get('/sistemas/configuracion', [SettingsController::class, 'getSettings'])->middleware('auth:sanctum');
-    Route::put('/sistemas/configuracion', [SettingsController::class, 'updateSettings'])->middleware('auth:sanctum');
+    Route::get('/sistemas/configuracion', [SettingsController::class, 'getSettings']);
+    Route::put('/sistemas/configuracion', [SettingsController::class, 'updateSettings']);
 
     // ─── AUTH ─────────────────────────────────────────────────────────────────
-    Route::post('/login_vue', function (Request $request, MenuService $menuService) {
-        $credentials = $request->validate([
-            'username' => 'required',
-            'password' => 'required',
-        ]);
-
-        if (!Auth::attempt($credentials)) {
-            return response()->json(['message' => 'Credenciales incorrectas'], 401);
-        }
-
-        $user = Auth::user();
-        $token = $user->createToken('auth_token')->plainTextToken;
-
-        $user["menu"] = $menuService->buildMenuForUser(auth()->id());
-        $user["permissions"] = $menuService->getPermissionsForUser(auth()->id());
-        $user["role"] = $user->role;
-
-        return response()->json(['token' => $token, 'user' => $user]);
-    });
-
     Route::post('/logout_vue', function (Request $request) {
         $request->user()->currentAccessToken()->delete();
         return response()->json(['message' => 'Sesión cerrada']);
-    })->middleware('auth:sanctum');
+    });
 
     // ─── RECURSOS HUMANOS / EMPLEADOS ─────────────────────────────────────────
     Route::get('/recursoshumanos/empleados', [RecursosHumanosController::class, 'getEmpleadosFlutter']);
@@ -271,7 +272,7 @@ Route::middleware('api')->group(function () {
 
     // Dashboard
     Route::get('/flotilla/dashboard', [FlotillaDashboardController::class, 'getDashboard']);
-    Route::post('/flotilla/dashboard/autorizar', [FlotillaDashboardController::class, 'autorizarPendiente'])->middleware('auth:sanctum');
+    Route::post('/flotilla/dashboard/autorizar', [FlotillaDashboardController::class, 'autorizarPendiente']);
 
     // Plantillas de mantenimiento por tipo de unidad
     Route::get('/flotilla/plantillas',                                    [FlotillaPlantillaController::class, 'getPlantillas']);
@@ -303,7 +304,7 @@ Route::middleware('api')->group(function () {
     Route::post('/flotilla/mantenimiento/preventivo',                     [FlotillaMantenimientoPreventivController::class, 'guardarMantenimiento']);
     Route::put('/flotilla/mantenimiento/preventivo/{id}',                 [FlotillaMantenimientoPreventivController::class, 'guardarMantenimiento']);
     Route::delete('/flotilla/mantenimiento/preventivo/{id}',              [FlotillaMantenimientoPreventivController::class, 'eliminarMantenimiento']);
-    Route::put('/flotilla/mantenimiento/preventivo/{id}/autorizacion',    [FlotillaMantenimientoPreventivController::class, 'autorizarMantenimiento'])->middleware('auth:sanctum');
+    Route::put('/flotilla/mantenimiento/preventivo/{id}/autorizacion',    [FlotillaMantenimientoPreventivController::class, 'autorizarMantenimiento']);
 
     // Mantenimiento Correctivo
     Route::get('/flotilla/mantenimiento/correctivo',                      [FlotillaMantenimientoCorrectivoController::class, 'getMantenimientos']);
@@ -312,7 +313,7 @@ Route::middleware('api')->group(function () {
     Route::put('/flotilla/mantenimiento/correctivo/{id}',                 [FlotillaMantenimientoCorrectivoController::class, 'guardarMantenimiento']);
     Route::put('/flotilla/mantenimiento/correctivo/{id}/estatus',         [FlotillaMantenimientoCorrectivoController::class, 'actualizarEstatus']);
     Route::delete('/flotilla/mantenimiento/correctivo/{id}',              [FlotillaMantenimientoCorrectivoController::class, 'eliminarMantenimiento']);
-    Route::put('/flotilla/mantenimiento/correctivo/{id}/autorizacion',    [FlotillaMantenimientoCorrectivoController::class, 'autorizarMantenimiento'])->middleware('auth:sanctum');
+    Route::put('/flotilla/mantenimiento/correctivo/{id}/autorizacion',    [FlotillaMantenimientoCorrectivoController::class, 'autorizarMantenimiento']);
 
     // Catálogo de Refacciones / Partes
     Route::get('/flotilla/cat-refacciones',                               [FlotillaCatRefaccionesController::class, 'getCatRefacciones']);
@@ -422,24 +423,5 @@ Route::middleware('api')->group(function () {
     Route::get('/rh/reportes/exportar-plantilla-csv',                     [RHReportesController::class, 'exportarCsvPlantilla']);
 });
 
-
-/*
-|--------------------------------------------------------------------------
-| API Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register API routes for your application. These
-| routes are loaded by the RouteServiceProvider and all of them will
-| be assigned to the "api" middleware group. Make something great!
-|
-*/
-
-Route::middleware('auth:sanctum')->group(function () {
-    //Route::apiResource('users', UserController::class);
-
-    Route::get('/user', function (Request $request) {
-        return $request->user();
-    });
-});
 
 // Fin de rutas

@@ -66,3 +66,16 @@ function ACTIVO_FIJO_ES_TIPO_UNIDAD($idTipoActivo): bool
 {
     return in_array((int) $idTipoActivo, ACTIVO_FIJO_TIPO_UNIDAD_IDS(), true);
 }
+
+/**
+ * Indica si un activo fijo (por su ID en activos_fijos) es de tipo "Unidad".
+ * Resuelve el idtipoactivo internamente.
+ */
+function ACTIVO_FIJO_ES_UNIDAD_POR_ID($idActivoFijo): bool
+{
+    $idtipoactivo = DB::table('activos_fijos')
+        ->where('id', $idActivoFijo)
+        ->value('idtipoactivo');
+
+    return $idtipoactivo && ACTIVO_FIJO_ES_TIPO_UNIDAD($idtipoactivo);
+}

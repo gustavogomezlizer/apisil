@@ -139,6 +139,11 @@ class FlotillaLecturasKmController extends Controller
                     'updated_at'    => now(),
                 ]);
 
+                // Actualizar odómetro de la unidad
+                DB::table('activos_fijos_unidades')
+                    ->where('idactivofijo', $idActivoFijo)
+                    ->update(['ultimoodometro' => $nuevoKm]);
+
                 // Registrar en bitácora de flotilla
                 $this->flotillaService->registrarBitacora([
                     'idactivofijo' => $idActivoFijo,
