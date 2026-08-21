@@ -57,6 +57,8 @@ Route::middleware('auth:sanctum')->group(function () {
     });
 });
 
+Route::get('/sistemas/users/public', [UserController::class, 'getUsuarios']);
+
 // Login — public, strictly rate-limited
 Route::middleware('api')->post('/login_vue', function (Request $request, MenuService $menuService) {
     $credentials = $request->validate([
